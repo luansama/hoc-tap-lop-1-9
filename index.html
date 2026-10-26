@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#2563eb" name="theme-color"/>
+<meta name="description" content="Học tập lớp 1–9: kiến thức, Quiz, flashcard, tiến độ và kế hoạch ôn tập."/>
+<link rel="manifest" href="manifest.json"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<title>Học Tập Lớp 1–9 | Học vui mỗi ngày</title>
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/themes.css" />
+</head>
+<body>
+<noscript><div style="margin:12px;padding:16px;border:2px solid #f59e0b;border-radius:12px;background:#fffbeb;color:#78350f;font-weight:600">Trang này cần JavaScript để các nút, Quiz, Flashcard và ghi chú hoạt động. Nếu iPhone đang mở file trong bản xem trước của ứng dụng Tệp hoặc khung xem trước, JavaScript có thể bị chặn nên các nút không phản hồi. Hãy mở bằng trình đọc HTML có hỗ trợ JavaScript hoặc dùng bản website chạy trên địa chỉ HTTPS. Không dùng được ở chế độ xem trước tĩnh.</div></noscript>
+<header><h1>📚 HỌC TẬP LỚP 1–9</h1><p>📚 Học tập • 📝 Luyện đề • 🃏 Ôn tập • 🏆 Theo dõi tiến bộ</p></header>
+<main>
+<div class="nav-shell"><nav aria-label="Các mục học tập" class="main-nav"><div class="nav-group"><div class="nav-group-title">📚 HỌC TẬP</div><div class="nav-items"><button class="tab active" id="tabKnowledge" onclick="showTab('knowledge')" type="button">🧠 Kiến thức tổng hợp</button><button class="tab" id="tabQuiz" onclick="showTab('quiz')" type="button">📝 Quiz</button><button class="tab" id="tabTextbooks" onclick="showTab('textbooks')" type="button">📚 SGK điện tử</button><button class="tab" id="tabFlash" onclick="showTab('flash')" type="button">🃏 Flashcard</button></div></div><div class="nav-group"><div class="nav-group-title">🎯 TIẾN ĐỘ &amp; TIỆN ÍCH</div><div class="nav-items"><button class="tab" id="tabProgress" onclick="showTab('progress')" type="button">🏆 Thành tích</button><button class="tab" id="tabPlanner" onclick="showTab('planner')" type="button">📅 Kế hoạch</button><button class="tab" id="tabPet" onclick="showTab('pet')" type="button">🐣 Thú cưng</button><button class="tab" id="tabTools" onclick="showTab('tools')" type="button">🧰 Công cụ mới</button><button class="tab" id="tabOffline" onclick="showTab('offline')" type="button">📴 Dùng offline</button></div></div><div class="nav-group"><div class="nav-group-title">❔ TRỢ GIÚP</div><div class="nav-items"><button class="tab" id="tabHelp" onclick="showTab('help')" type="button">📘 Hướng dẫn sử dụng</button></div></div></nav></div>
+<section id="knowledge">
+<div class="card">
+<h2>📖 Kiến thức tổng hợp</h2>
+<div class="controls">
+<div><label>Lớp</label><select id="kGrade"></select></div>
+<div><label>Môn</label><select id="kSubject"></select></div>
+<div><label>Tìm kiếm</label><input id="search" placeholder="🔎 Tìm chủ đề..."/></div>
+</div>
+</div>
+<div class="grid" id="knowledgeList"></div>
+<div class="card hidden" id="knowledgeDetail"></div>
+</section>
+<section class="hidden" id="quiz">
+<div class="card">
+<h2>🎯 Cấu hình Quiz theo lớp &amp; môn</h2><p class="muted">Mỗi tổ hợp <b>lớp + môn</b> có 20 câu riêng, không dùng câu lớp thấp hơn để lấp số.</p>
+<div class="controls">
+<div><label>Chọn lớp</label><select id="qGrade"></select></div>
+<div><label>Chọn môn</label><select id="qSubject"></select></div>
+<div><label>Số câu</label><select id="qCount"><option>5</option><option>10</option><option>15</option><option>20</option><option>25</option></select></div>
+<div><label>Độ khó</label><select id="difficulty"><option value="all">Tất cả</option><option value="easy">Dễ</option><option value="medium">Vừa</option><option value="hard">Khó</option></select></div>
+<div><label>Thời gian/câu</label><select id="time"><option value="0">Không giới hạn</option><option value="30">30 giây</option><option value="60">60 giây</option></select></div><div><label>Thời gian toàn bài thi</label><select id="examDuration"><option value="0">Không giới hạn</option><option value="5">5 phút</option><option selected="" value="10">10 phút</option><option value="15">15 phút</option><option value="30">30 phút</option></select></div>
+</div>
+<div class="curriculum-quiz-filter"><label for="qCurriculumVerifiedOnly"><input id="qCurriculumVerifiedOnly" type="checkbox" /> Chỉ dùng câu đã đối chiếu với SGK (đề chuẩn)</label><p class="small-note">Khi bật, Quiz chỉ lấy câu được gắn đúng lớp–môn, bộ sách, tập, bài và đã được người dùng đánh dấu đã đối chiếu. Ngân hàng hiện có nhiều câu chưa được gắn đủ nguồn nên số câu có thể giảm.</p></div>
+<br/><p aria-live="polite" class="pill hidden" id="examClock"></p><button class="primary" onclick="startQuiz()" type="button">🚀 Bắt đầu Quiz / Thi thử</button>
+<button class="secondary" onclick="randomQuiz()" type="button">🎲 Quiz ngẫu nhiên</button>
+</div>
+<div class="card hidden" id="quizCard"></div><div class="card" id="notesCard"><h3>📝 Ghi chú cá nhân</h3><p class="muted">Ghi chú được lưu riêng theo lớp và môn đang chọn trong phần Quiz trên thiết bị này.</p><textarea class="note-box" id="personalNotes" placeholder="Ghi công thức, điều cần nhớ..."></textarea><button class="primary" onclick="saveNotes()" type="button">💾 Lưu ghi chú</button><span aria-live="polite" class="muted" id="notesStatus"></span></div><div class="card hidden" id="reviewCard"></div><div class="card hidden" id="recommendCard"></div>
+</section>
+<section class="hidden" id="progress">
+<div class="card"><h2>🏆 Thành tích học tập</h2><p class="muted">EXP, xu và huy hiệu được tính từ các bài Quiz hoàn thành.</p><div class="stat-grid" id="statSummary"></div><h3>📈 Tiến bộ theo môn</h3><div id="subjectStats"></div>
+<h3>🕘 Lịch sử các bài Quiz</h3>
+<div class="quiz-history-panel" id="quizAttemptHistoryPanel">
+  <p class="muted">Lưu các lượt làm bài gần đây để xem điểm, thời gian, môn học và sự tiến bộ. Lịch sử lưu trên thiết bị này và nằm trong tệp sao lưu.</p>
+  <div class="quiz-history-filters">
+    <div><label for="quizHistoryGradeFilter">Lọc lớp</label><select id="quizHistoryGradeFilter"><option value="all">Tất cả lớp</option></select></div>
+    <div><label for="quizHistorySubjectFilter">Lọc môn</label><select id="quizHistorySubjectFilter"><option value="all">Tất cả môn</option></select></div>
+  </div>
+  <div class="quiz-history-summary" id="quizHistorySummary" aria-live="polite"></div>
+  <div class="quiz-history-actions"><button type="button" class="secondary" id="exportQuizHistory">⬇️ Xuất lịch sử CSV</button><button type="button" class="secondary" id="clearQuizHistory">🗑️ Xóa lịch sử Quiz</button></div>
+  <div id="quizAttemptHistoryList" class="quiz-history-list" aria-live="polite"><p class="muted">Chưa có lượt Quiz nào được lưu. Hoàn thành một bài để bắt đầu ghi nhận.</p></div>
+</div>
+<h3>🗺️ Bản đồ kiến thức</h3><p class="muted">Tóm tắt độ chính xác từ các bài Quiz đã hoàn thành và những chủ đề hay sai đã ghi nhận. Môn chưa có dữ liệu sẽ chưa bị xếp loại.</p><div id="knowledgeMap" class="knowledge-map-grid"></div><h3>🎖️ Bộ sưu tập huy hiệu</h3><div class="badge-grid" id="badgeList"></div></div>
+</section>
+<section class="hidden" id="flash">
+<div class="card"><h2>🃏 Flashcard học thuộc nhanh</h2><div class="controls"><div><label>Lớp</label><select id="fGrade"></select></div><div><label>Môn</label><select id="fSubject"></select></div><div><label>Bộ thẻ</label><select id="fDeck"><option value="topics">Chủ đề kiến thức</option><option value="quiz">Câu hỏi Quiz</option></select></div></div><p class="muted">Chạm vào thẻ để lật mặt trước/mặt sau.</p><div class="flashcard" id="flashcard" onclick="flipFlashcard()" role="button" tabindex="0">Chọn lớp và môn, rồi nhấn Bắt đầu</div><p class="muted" id="flashCount" style="text-align:center"></p><div class="quiz-tools"><button class="secondary" onclick="startFlashcards()">▶ Bắt đầu</button><button class="secondary" onclick="prevFlashcard()">← Thẻ trước</button><button class="primary" onclick="flipFlashcard()">🔄 Lật thẻ</button><button class="secondary" onclick="nextFlashcard()">Thẻ tiếp →</button><button class="secondary" onclick="markFlashKnown()">✅ Đã thuộc</button></div><p class="muted" id="flashKnownStatus"></p></div>
+<div class="card spaced-review-panel">
+ <h3>🧠 Ôn tập lặp lại cách quãng</h3>
+ <p class="muted">Đánh giá độ nhớ sau khi lật thẻ. Thẻ khó sẽ quay lại sớm hơn; thẻ đã nhớ được lên lịch ôn sau vài ngày. Lịch ôn được lưu trên thiết bị này.</p>
+ <div class="spaced-summary-grid" id="spacedReviewSummary" aria-live="polite"></div>
+ <div class="quiz-tools">
+  <button type="button" class="primary" onclick="startSpacedReview()">⏰ Ôn thẻ mới / đến hạn</button>
+  <button type="button" class="secondary" onclick="startFlashcards()">📚 Học tất cả thẻ</button>
+  <button type="button" class="secondary" onclick="renderSpacedSchedule()">🗓️ Làm mới lịch ôn</button>
+  <button type="button" class="secondary" onclick="clearSpacedReview()">🗑️ Xóa lịch ôn của môn này</button>
+ </div>
+ <div class="spaced-rating-wrap" id="spacedRatingWrap" hidden>
+  <p><b>Đã lật thẻ và tự đánh giá nhé:</b></p>
+  <div class="spaced-rating-grid">
+   <button type="button" class="spaced-rate rate-again" onclick="rateSpacedCard('again')">😵 Chưa nhớ <small>ôn lại sau 10 phút</small></button>
+   <button type="button" class="spaced-rate rate-hard" onclick="rateSpacedCard('hard')">🤔 Khó nhớ <small>ôn lại sau 1 ngày</small></button>
+   <button type="button" class="spaced-rate rate-good" onclick="rateSpacedCard('good')">🙂 Đã nhớ <small>ôn lại sau 3 ngày</small></button>
+   <button type="button" class="spaced-rate rate-easy" onclick="rateSpacedCard('easy')">😎 Rất dễ <small>ôn lại sau 7 ngày</small></button>
+  </div>
+ </div>
+ <div class="feedback" id="spacedReviewFeedback" aria-live="polite">Bắt đầu một lượt ôn để lập lịch nhắc lại theo mức độ nhớ.</div>
+ <h4>🗓️ Lịch nhắc lại của lớp–môn đang chọn</h4>
+ <div id="spacedReviewSchedule" class="spaced-schedule-list"><p class="muted">Chưa có lịch ôn. Hãy học flashcard và tự đánh giá thẻ đầu tiên.</p></div>
+ <p class="small-note">Nguyên tắc mặc định: chưa nhớ = 10 phút; khó nhớ = 1 ngày; đã nhớ = 3 ngày; rất dễ = 7 ngày. Đây là lịch gợi ý đơn giản, mày có thể mở flashcard để ôn sớm bất cứ lúc nào.</p>
+</div>
+</section>
+<section class="hidden" id="planner">
+<div class="card"><h2>📅 Thời khóa biểu &amp; nhiệm vụ hằng ngày</h2><p class="muted">Đánh dấu nhiệm vụ khi hoàn thành. Nhiệm vụ tự làm mới theo ngày trên thiết bị.</p><div id="dailyTasks"></div><h3>🗓️ Thời khóa biểu của bạn</h3><label for="scheduleText">Ghi lịch học trong tuần</label><textarea class="note-box" id="scheduleText" placeholder="Thứ 2: Toán, Ngữ văn...
+Thứ 3: Tiếng Anh..."></textarea><p><button class="primary" onclick="saveSchedule()">💾 Lưu thời khóa biểu</button> <span class="muted" id="scheduleStatus"></span></p><h3>➕ Thêm nhiệm vụ riêng</h3><input id="customTaskInput" placeholder="Ví dụ: Ôn 10 từ vựng tiếng Anh"/><button class="secondary" onclick="addCustomTask()">Thêm nhiệm vụ</button><div id="customTasks"></div></div>
+</section>
+<section class="hidden" id="pet">
+<div class="card"><h2>🐣 Thú cưng học tập</h2><div id="petView"></div><p class="muted">Mỗi lần hoàn thành Quiz, bạn nhận xu để chăm sóc thú cưng. Đây là phần thưởng vui vẻ, không có phạt khi nghỉ học.</p><div class="quiz-tools"><button class="primary" onclick="feedPet()">🍎 Cho ăn · 5 xu</button><button class="secondary" onclick="playPet()">🎾 Chơi cùng · 3 xu</button><button class="secondary" onclick="renamePet()">✏️ Đặt tên</button></div><p aria-live="polite" id="petStatus"></p></div>
+</section>
+<section class="hidden" id="offline">
+<div class="card"><h2>📴 Dùng khi mất mạng</h2><p><span class="status-dot"></span><b>Kiến thức, Quiz, Flashcard và công cụ học tập</b> được lưu trong các tệp JSON và JavaScript của dự án. Sau khi mở website qua localhost/HTTPS và tải dữ liệu lần đầu, bản PWA có thể dùng offline nhờ bộ nhớ đệm.</p><p class="muted">Các liên kết mở SGK trên mạng vẫn cần Internet. Nếu mở trực tiếp bằng file://, trình duyệt có thể chặn việc tải JSON và lưu tiến độ. Nên dùng localhost/HTTPS và xuất bản sao lưu định kỳ.</p><h3>💾 Sao lưu tiến độ</h3><p><button class="primary" onclick="exportBackup()">⬇️ Xuất bản sao lưu</button></p><label for="backupFile">Khôi phục từ file sao lưu</label><input accept="application/json,.json" id="backupFile" onchange="importBackup(event)" type="file"/><p aria-live="polite" class="muted" id="backupStatus"></p><h3>📱 Mẹo trên iPhone</h3><ol><li>Mở website bằng URL HTTPS hoặc localhost trong trình duyệt đầy đủ.</li><li>Sau lần tải đầu tiên, trình duyệt có thể dùng bộ nhớ đệm để mở lại website khi mất mạng.</li><li>Không mở riêng file index.html trong ứng dụng Tệp vì trình duyệt có thể chặn các tệp JSON liên quan.</li></ol></div>
+</section>
+<section class="hidden" id="textbooks">
+<div class="card">
+<h2>📚 Sách giáo khoa điện tử</h2>
+<p class="muted">Chọn lớp → môn → tập rồi bấm “Mở SGK”: các cuốn đã có liên kết xác minh sẽ vào thẳng trình đọc sách điện tử chính thức. Nếu chưa có đường dẫn đọc trực tiếp, website sẽ mở danh mục lớp để tránh dẫn nhầm sách.</p>
+<div class="controls">
+<div><label for="sgGrade">Chọn lớp</label><select id="sgGrade"></select></div>
+<div><label for="sgSubject">Chọn môn</label><select id="sgSubject"></select></div>
+<div><label for="sgVolume">Chọn tập</label><select id="sgVolume"><option value="single">Một cuốn / cả năm</option></select></div>
+<div><label for="sgSeries">Chọn bộ sách</label><select id="sgSeries">
+<option value="unified">Bộ SGK thống nhất (NXB Giáo dục Việt Nam)</option>
+<option value="Kết nối tri thức với cuộc sống">Kết nối tri thức (bộ sách cũ)</option>
+<option value="Chân trời sáng tạo">Chân trời sáng tạo (bộ sách cũ)</option>
+<option value="Cánh Diều">Cánh Diều (bộ sách cũ)</option>
+</select></div>
+</div>
+<div class="sgk-banner">
+<b>📖 Sách đang chọn</b>
+<div aria-live="polite" class="sgk-summary" id="sgkSummary"></div>
+<div class="sgk-actions">
+<a class="primary" href="https://taphuan.nxbgd.vn/tap-huan" id="sgkOpenLink" rel="noopener noreferrer" target="_blank">📖 Mở SGK</a>
+<a class="secondary" href="https://taphuan.nxbgd.vn/tap-huan" rel="noopener noreferrer" target="_blank">🔗 Thư viện SGK chính thức</a>
+<a class="secondary" href="https://www.nxbgd.vn/bai-viet/huong-dan-truy-cap-sach-giao-khoa-dien-tu-tren-trang-taphuannxbgdvn" rel="noopener noreferrer" target="_blank">ℹ️ Hướng dẫn mở sách</a>
+</div>
+<p class="sgk-note" id="sgkHelp"></p>
+</div>
+<p class="sgk-note">Nguồn đọc là cổng sách điện tử của NXB Giáo dục Việt Nam. Tập 1/Tập 2 chỉ hiện với những môn có chia tập. Nếu cuốn chưa có đường dẫn đọc trực tiếp đã xác minh, trang sẽ mở danh mục lớp tương ứng thay vì đoán link.</p>
+</div>
+</section>
+<section class="hidden" id="tools">
+<div class="card">
+<h2>🧰 Công cụ học tập nâng cấp</h2>
+<p class="muted">Các công cụ chạy ngay trong trình duyệt, không cần Replit hay tài khoản. Tiến độ và báo lỗi được lưu trên thiết bị này; báo lỗi chưa được gửi lên máy chủ.</p>
+</div>
+<div aria-label="Chọn một công cụ" class="tool-menu-grid" id="toolMenu"><button aria-label="Tìm kiếm toàn trang" class="tool-menu-item" onclick="showToolModule(0)" type="button"><span aria-hidden="true" class="tool-menu-icon">🔎</span><strong class="tool-menu-title">Tìm kiếm toàn trang</strong><span class="tool-menu-description">Tìm nhanh chủ đề, câu hỏi và kiến thức.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Tạo đề kiểm tra" class="tool-menu-item" onclick="showToolModule(1)" type="button"><span aria-hidden="true" class="tool-menu-icon">📝</span><strong class="tool-menu-title">Tạo đề kiểm tra</strong><span class="tool-menu-description">Chọn lớp, môn, số câu và độ khó.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Học theo bài / chủ đề" class="tool-menu-item" onclick="showToolModule(2)" type="button"><span aria-hidden="true" class="tool-menu-icon">📚</span><strong class="tool-menu-title">Học theo bài / chủ đề</strong><span class="tool-menu-description">Tập trung ôn một nội dung cụ thể.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Ôn tập lỗi sai" class="tool-menu-item" onclick="showToolModule(3)" type="button"><span aria-hidden="true" class="tool-menu-icon">🔁</span><strong class="tool-menu-title">Ôn tập lỗi sai</strong><span class="tool-menu-description">Xem lại câu từng trả lời chưa đúng.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Báo câu hỏi lỗi" class="tool-menu-item" onclick="showToolModule(4)" type="button"><span aria-hidden="true" class="tool-menu-icon">🚩</span><strong class="tool-menu-title">Báo câu hỏi lỗi</strong><span class="tool-menu-description">Ghi lại câu sai hoặc chưa rõ.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Mini-game kiến thức" class="tool-menu-item" onclick="showToolModule(5)" type="button"><span aria-hidden="true" class="tool-menu-icon">🧩</span><strong class="tool-menu-title">Mini-game kiến thức</strong><span class="tool-menu-description">Ghép câu hỏi với đáp án.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Phòng thí nghiệm ảo" class="tool-menu-item" onclick="showToolModule(6)" type="button"><span aria-hidden="true" class="tool-menu-icon">🔬</span><strong class="tool-menu-title">Phòng thí nghiệm ảo</strong><span class="tool-menu-description">Khám phá mô phỏng khoa học an toàn.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Tùy chỉnh giao diện" class="tool-menu-item" onclick="showToolModule(7)" type="button"><span aria-hidden="true" class="tool-menu-icon">🎨</span><strong class="tool-menu-title">Tùy chỉnh giao diện</strong><span class="tool-menu-description">Đổi chế độ màu và cỡ chữ.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Kiểm tra ngân hàng câu hỏi" class="tool-menu-item" onclick="showToolModule(8)" type="button"><span aria-hidden="true" class="tool-menu-icon">🛠️</span><strong class="tool-menu-title">Kiểm tra ngân hàng câu hỏi</strong><span class="tool-menu-description">Rà cấu trúc dữ liệu câu hỏi.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Sao lưu &amp; chuyển tiến độ" class="tool-menu-item" onclick="showToolModule(9)" type="button"><span aria-hidden="true" class="tool-menu-icon">💾</span><strong class="tool-menu-title">Sao lưu &amp; chuyển tiến độ</strong><span class="tool-menu-description">Tải hoặc khôi phục dữ liệu học.</span><span class="tool-menu-open">Mở mục →</span></button><button aria-label="Kiểm duyệt câu hỏi" class="tool-menu-item" onclick="showToolModule(10)" type="button"><span aria-hidden="true" class="tool-menu-icon">🧑‍🏫</span><strong class="tool-menu-title">Kiểm duyệt câu hỏi</strong><span class="tool-menu-description">Sửa câu, kiểm tra báo lỗi và lưu trạng thái.</span><span class="tool-menu-open">Mở mục →</span></button></div><div class="hidden" id="toolsContent"><div class="tools-content-toolbar"><button class="tool-back" onclick="showToolMenu()" type="button">← Tất cả công cụ</button><div aria-live="polite" class="tool-current-title" id="toolCurrentTitle">Công cụ học tập</div></div><div class="tools-grid">
+<div class="tool-card">
+<h3>🔎 Tìm kiếm toàn trang</h3>
+<label for="globalSearch">Từ khóa cần tìm</label><input autocomplete="off" id="globalSearch" placeholder="Ví dụ: phân số, phân tử, môi trường..."/>
+<div class="tool-controls"><div><label for="toolGrade">Lọc lớp</label><select id="toolGrade"><option value="all">Tất cả lớp</option></select></div><div><label for="toolSubject">Lọc môn</label><select id="toolSubject"><option value="all">Tất cả môn</option></select></div></div>
+<button class="primary" id="globalSearchBtn" type="button">Tìm kiến thức</button><div aria-live="polite" class="tool-results" id="globalSearchResults"></div>
+<p class="small-note">Tìm trong tên chủ đề, câu hỏi, phương án và chủ đề gắn với câu hỏi của ngân hàng hiện có.</p>
+</div>
+<div class="tool-card">
+<h3>📝 Tạo đề kiểm tra theo ý mình</h3>
+<div class="tool-controls"><div><label for="customGrade">Lớp</label><select id="customGrade"></select></div><div><label for="customSubject">Môn</label><select id="customSubject"></select></div><div><label for="customCount">Số câu (1–25)</label><input id="customCount" max="25" min="1" type="number" value="10"/></div><div><label for="customDifficulty">Độ khó</label><select id="customDifficulty"><option value="all">Tất cả</option><option value="easy">Dễ</option><option value="medium">Vừa</option><option value="hard">Khó</option></select></div><div><label for="customDuration">Thời gian toàn bài</label><select id="customDuration"><option value="0">Không giới hạn</option><option value="5">5 phút</option><option selected="" value="10">10 phút</option><option value="15">15 phút</option><option value="30">30 phút</option></select></div></div>
+<button class="primary" id="makeCustomTest" type="button">🚀 Tạo và làm đề</button>
+<p class="small-note">Đề chỉ lấy câu hỏi của đúng lớp và môn đã chọn. Nếu không có câu ở độ khó đó, trang sẽ báo rõ, không tự đổi sang môn khác.</p>
+</div>
+<div class="tool-card">
+<h3>📚 Học theo bài / chủ đề</h3>
+<div class="tool-controls"><div><label for="lessonGrade">Lớp</label><select id="lessonGrade"></select></div><div><label for="lessonSubject">Môn</label><select id="lessonSubject"></select></div><div><label for="lessonSeries">Bộ sách</label><select id="lessonSeries"><option value="unified">SGK NXB Giáo dục Việt Nam</option><option value="Kết nối tri thức với cuộc sống">Kết nối tri thức</option><option value="Chân trời sáng tạo">Chân trời sáng tạo</option><option value="Cánh Diều">Cánh Diều</option></select></div><div><label for="lessonVolume">Tập</label><select id="lessonVolume"><option value="Tập 1">Tập 1</option><option value="Tập 2">Tập 2</option><option value="single">Một cuốn / cả năm</option></select></div></div>
+<label for="lessonTopic">Bài / chủ đề ôn tập</label><select id="lessonTopic"></select>
+<button class="primary" id="openLessonStudy" type="button">📖 Học bài này</button> <button class="secondary" id="openLessonSgk" type="button">Mở đúng bộ SGK</button>
+<div aria-live="polite" class="tool-results" id="lessonContent"><p class="muted">Chọn lớp → môn → bộ sách → tập → bài/chủ đề. Nội dung ôn tập sẽ lấy câu hỏi của đúng lớp và môn đã chọn.</p></div>
+<p class="small-note">Các chủ đề hiện được lấy từ ngân hàng câu hỏi của website, chưa phải mục lục chính thức đã đối chiếu của mọi bộ sách. Với bộ sách chưa có đường dẫn đọc trực tiếp đã xác minh, nút sẽ mở danh mục SGK để tránh dẫn nhầm.</p>
+</div>
+<div class="tool-card">
+<h3>🔁 Ôn tập thông minh theo lỗi sai</h3>
+<div class="tool-controls"><div><label for="reviewGrade">Lớp cần ôn</label><select id="reviewGrade"></select></div><div><label for="reviewSubject">Môn cần ôn</label><select id="reviewSubject"></select></div></div>
+<div aria-live="polite" class="feedback" id="smartReviewSummary">Chọn lớp và môn để xem câu từng làm sai.</div>
+<button class="primary" id="startSmartReview" type="button">📚 Ôn lại câu sai</button> <button class="secondary" id="clearSmartReview" type="button">Xóa lịch sử sai của môn này</button>
+<p class="small-note">Lịch sử câu sai lưu riêng từng tổ hợp lớp–môn trên thiết bị này. Xóa lịch sử sai không xóa điểm hay tiến độ khác.</p>
+</div>
+<div class="tool-card">
+<h3>🚩 Báo câu hỏi sai hoặc chưa rõ</h3>
+<div aria-live="polite" class="feedback" id="reportSummary">Trong Quiz, bấm “🚩 Báo câu hỏi lỗi” để đính kèm câu đang xem.</div>
+<label for="reportKind">Loại lỗi</label><select id="reportKind"><option value="wrong-answer">Đáp án có thể sai</option><option value="wrong-subject">Sai môn hoặc sai lớp</option><option value="unclear">Câu hỏi khó hiểu</option><option value="typo">Lỗi chính tả</option><option value="duplicate">Câu bị trùng</option><option value="other">Lỗi khác</option></select>
+<label for="reportDetails">Mô tả thêm</label><textarea class="note-box" id="reportDetails" placeholder="Mô tả ngắn gọn điều cần kiểm tra..." rows="3"></textarea>
+<button class="primary" id="saveQuestionReport" type="button">Lưu báo lỗi trên thiết bị</button><div aria-live="polite" class="small-note" id="reportStatus"></div>
+<h4>Báo lỗi đã lưu</h4><div class="tool-results" id="reportList"></div>
+</div>
+<div class="tool-card">
+<h3>🧩 Mini-game ghép đôi kiến thức</h3>
+<div class="tool-controls"><div><label for="gameGrade">Lớp</label><select id="gameGrade"></select></div><div><label for="gameSubject">Môn</label><select id="gameSubject"></select></div></div>
+<button class="primary" id="startMiniGame" type="button">🎮 Bắt đầu vòng mới</button>
+<p aria-live="polite" class="feedback" id="miniGameStatus">Ghép câu hỏi ở cột trái với đáp án đúng ở cột phải.</p><div class="pair-grid" id="miniGameBoard"></div>
+</div>
+<div class="tool-card">
+<h3>🔬 Phòng thí nghiệm ảo</h3>
+<label for="labType">Chọn mô phỏng</label><select id="labType"><option value="circuit">Mạch điện lý tưởng (định luật Ôm)</option><option value="water">Trạng thái của nước</option><option value="ph">Thang pH</option></select>
+<div id="labControls"></div><div aria-live="polite" class="lab-readout" id="labOutput"></div>
+<p class="small-note">Đây là mô phỏng kiến thức trên màn hình, không phải hướng dẫn làm thí nghiệm thật. Mô hình nước dùng mốc gần đúng ở áp suất khí quyển tiêu chuẩn.</p>
+</div>
+<div class="tool-card">
+<h3>🎨 Tùy chỉnh giao diện</h3>
+<label for="themeMode">Chế độ hiển thị</label><select id="themeMode"><option value="light">Sáng</option><option value="dark">Tối</option></select>
+<label for="accentColor">Màu nhấn</label><select id="accentColor"><option value="#2563eb">Xanh dương</option><option value="#7c3aed">Tím</option><option value="#0f766e">Xanh ngọc</option><option value="#c2410c">Cam</option><option value="#be123c">Đỏ hồng</option></select>
+<label for="fontScale">Cỡ chữ</label><select id="fontScale"><option value="15">Nhỏ</option><option selected="" value="16">Vừa</option><option value="18">Lớn</option><option value="20">Rất lớn</option></select>
+<button class="primary" id="saveAppearance" type="button">💾 Lưu giao diện</button><span aria-live="polite" class="small-note" id="appearanceStatus"></span>
+</div>
+<div class="tool-card">
+<h3>🛠️ Kiểm tra ngân hàng câu hỏi</h3>
+<p class="small-note">Tự kiểm tra cấu trúc ngân hàng, số câu, số lựa chọn, chỉ số đáp án và một số dấu hiệu câu hỏi có thể bị trộn môn. Kiểm tra cấu trúc không thể thay thế việc giáo viên rà soát kiến thức.</p>
+<button class="primary" id="runBankAudit" type="button">Chạy kiểm tra</button><div aria-live="polite" class="feedback" id="bankAuditResult"></div>
+</div>
+<div class="tool-card">
+<h3>💾 Sao lưu &amp; chuyển tiến độ</h3>
+<p class="small-note">Tệp sao lưu gồm XP, xu, thành tích, ghi chú, nhiệm vụ, thú cưng, câu sai và báo lỗi đã lưu trên thiết bị.</p>
+<button class="primary" onclick="exportBackup()" type="button">⬇️ Tải bản sao lưu JSON</button>
+<label for="toolBackupFile">Khôi phục từ bản sao lưu</label><input accept="application/json,.json" id="toolBackupFile" onchange="importBackup(event)" type="file"/>
+<div aria-live="polite" class="small-note" id="toolBackupStatus"></div>
+</div>
+<div class="tool-card" id="teacherModerationCard">
+<h3>🧑‍🏫 Chế độ kiểm duyệt câu hỏi</h3>
+<p class="small-note">Chế độ cục bộ trên thiết bị này, không có tài khoản/mật khẩu và không đồng bộ qua mạng. Câu được chỉnh sẽ có hiệu lực trong các lượt Quiz tiếp theo trên thiết bị này. Hãy sao lưu trước khi chuyển máy.</p>
+<div class="teacher-stat-grid" id="teacherModerationStats" aria-live="polite"></div>
+<h4>✏️ Chỉnh sửa câu hỏi</h4>
+<div class="tool-controls">
+  <div><label for="teacherGrade">Lớp</label><select id="teacherGrade"></select></div>
+  <div><label for="teacherSubject">Môn</label><select id="teacherSubject"></select></div>
+</div>
+<label for="teacherQuestion">Câu hỏi trong bộ đã chọn</label><select id="teacherQuestion"></select>
+<label for="teacherPrompt">Nội dung câu hỏi</label><textarea class="note-box" id="teacherPrompt" rows="3" placeholder="Nhập nội dung câu hỏi rõ ràng..."></textarea>
+<div class="tool-controls">
+ <div><label for="teacherOpt0">Phương án A</label><input id="teacherOpt0" autocomplete="off" /></div>
+ <div><label for="teacherOpt1">Phương án B</label><input id="teacherOpt1" autocomplete="off" /></div>
+ <div><label for="teacherOpt2">Phương án C</label><input id="teacherOpt2" autocomplete="off" /></div>
+ <div><label for="teacherOpt3">Phương án D</label><input id="teacherOpt3" autocomplete="off" /></div>
+</div>
+<div class="tool-controls">
+ <div><label for="teacherCorrect">Đáp án đúng</label><select id="teacherCorrect"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div>
+ <div><label for="teacherDifficulty">Mức độ</label><select id="teacherDifficulty"><option value="easy">Dễ</option><option value="medium">Vừa</option><option value="hard">Khó</option></select></div>
+</div>
+<label for="teacherTopic">Chủ đề (nếu có)</label><input id="teacherTopic" autocomplete="off" placeholder="Ví dụ: Phân số, môi trường, đọc hiểu..." />
+<hr />
+<h4>📚 Nguồn tham khảo của câu hỏi</h4>
+<p class="small-note">Ghi nguồn mà người biên soạn đã thực sự kiểm tra. Không nhập nguồn/trang chưa xác minh; liên kết chỉ được lưu, không tự động chứng minh nội dung đúng.</p>
+<label for="teacherSourceTitle">Tên sách / tài liệu / trang nguồn</label><input id="teacherSourceTitle" autocomplete="off" placeholder="Ví dụ: SGK Khoa học tự nhiên 7 — bộ sách ..." />
+<div class="tool-controls">
+ <div><label for="teacherSourcePublisher">Nhà xuất bản / đơn vị</label><input id="teacherSourcePublisher" autocomplete="organization" placeholder="Ví dụ: Nhà xuất bản Giáo dục Việt Nam" /></div>
+ <div><label for="teacherSourceLocation">Bài / chương / trang</label><input id="teacherSourceLocation" autocomplete="off" placeholder="Ví dụ: Bài 3, trang 24–25" /></div>
+</div>
+<label for="teacherSourceUrl">Liên kết tham khảo (nếu có)</label><input id="teacherSourceUrl" type="url" inputmode="url" autocomplete="url" placeholder="https://..." />
+<label for="teacherSourceNote">Ghi chú đối chiếu</label><textarea id="teacherSourceNote" class="note-box" rows="2" placeholder="Đã đối chiếu định nghĩa, dữ kiện hoặc đáp án nào? Nếu chưa kiểm tra, hãy ghi rõ."></textarea>
+<div id="teacherSourceStatus" class="small-note" aria-live="polite">Chưa ghi nguồn cho câu đang chọn.</div>
+<div class="curriculum-editor" id="teacherCurriculumEditor">
+ <h4>🎯 Đối chiếu chương trình và bài SGK</h4>
+ <p class="small-note">Lớp và môn lấy từ bộ câu đang chọn. Chủ đề hiện có chỉ là gợi ý, không tự động xem là tên bài trong SGK. Chọn đúng bộ sách, tập và nhập tên bài theo mục lục thật. Chỉ chọn “Đã đối chiếu” sau khi kiểm tra nội dung và đáp án.</p>
+ <div class="tool-controls">
+  <div><label for="teacherCurriculumSeries">Bộ sách</label><select id="teacherCurriculumSeries"><option value="">Chưa xác định</option><option value="nxbgd-unified">Bộ SGK thống nhất · NXB Giáo dục Việt Nam</option><option value="ket-noi">Kết nối tri thức với cuộc sống</option><option value="chan-troi">Chân trời sáng tạo</option><option value="canh-dieu">Cánh Diều</option><option value="cung-hoc">Cùng học để phát triển năng lực</option><option value="binh-dang">Vì sự bình đẳng và dân chủ trong giáo dục</option><option value="other">Bộ sách khác</option></select></div>
+  <div><label for="teacherCurriculumVolume">Tập</label><select id="teacherCurriculumVolume"><option value="">Chưa xác định</option><option value="single">Một cuốn / cả năm</option><option value="1">Tập 1</option><option value="2">Tập 2</option><option value="no-volume">Sách không chia tập</option></select></div>
+ </div>
+ <div class="tool-controls">
+  <div><label for="teacherCurriculumLesson">Tên bài đúng theo mục lục</label><input id="teacherCurriculumLesson" autocomplete="off" placeholder="Ví dụ: Bài 4 — nhập đúng tên trong sách" /></div>
+  <div><label for="teacherCurriculumPages">Trang / mục</label><input id="teacherCurriculumPages" autocomplete="off" placeholder="Ví dụ: trang 32–35 hoặc mục 2" /></div>
+ </div>
+ <label for="teacherCurriculumStatus">Tình trạng đối chiếu</label><select id="teacherCurriculumStatus"><option value="unmapped">Chưa đối chiếu</option><option value="reviewing">Đang đối chiếu</option><option value="verified">Đã đối chiếu nội dung và đáp án</option><option value="mismatch">Không khớp SGK — cần sửa</option></select>
+ <label for="teacherCurriculumNote">Ghi chú căn cứ đối chiếu</label><textarea id="teacherCurriculumNote" class="note-box" rows="2" placeholder="Ghi rõ kiến thức/cách giải/đáp án đã kiểm tra; không ghi phỏng đoán là kết luận."></textarea>
+ <div id="teacherCurriculumBookLink" class="small-note" aria-live="polite">Chọn bộ sách/tập để kiểm tra xem có link đọc trực tiếp đã biết hay không.</div>
+ <div class="quiz-tools"><button class="secondary" id="teacherCurriculumUseOfficialLink" type="button">🔗 Điền link SGK chính thức đã có</button><button class="primary" id="teacherCurriculumSave" type="button">💾 Lưu đối chiếu câu này</button><button class="secondary" id="teacherCurriculumBulkTag" type="button">🏷️ Gán bộ sách/tập cho cả bộ lớp–môn</button></div>
+ <p id="teacherCurriculumStatusMessage" class="small-note" aria-live="polite">Câu chưa có bản ghi đối chiếu SGK riêng.</p>
+</div>
+<div class="quiz-tools"><button class="primary" id="saveTeacherQuestion" type="button">💾 Lưu chỉnh sửa</button><button class="secondary" id="resetTeacherQuestion" type="button">↩ Khôi phục câu gốc</button><button class="secondary" id="saveTeacherSource" type="button">📚 Lưu nguồn tham khảo</button></div>
+<div class="feedback" id="teacherEditStatus" aria-live="polite">Chọn lớp, môn và câu hỏi để bắt đầu.</div>
+<div class="tool-controls">
+ <div><label for="teacherReviewMark">Trạng thái kiểm duyệt</label><select id="teacherReviewMark"><option value="not-reviewed">Chưa kiểm duyệt</option><option value="reviewing">Đang kiểm tra</option><option value="approved">Đã kiểm tra</option><option value="needs-fix">Cần sửa thêm</option></select></div>
+ <div style="align-self:end"><button class="secondary" id="saveTeacherReviewMark" type="button">Lưu trạng thái</button></div>
+</div>
+<p class="small-note">“Đã kiểm tra” chỉ là nhãn do người dùng chọn, không phải chứng nhận tự động rằng kiến thức/đáp án chính xác. Hãy đối chiếu sách hoặc tài liệu đáng tin cậy trước khi duyệt.</p>
+<hr />
+<h4>🗂️ Bảng rà soát độ khớp chương trình–SGK</h4>
+<p class="small-note">Bảng này phân biệt “được gắn thông tin” với “đã đối chiếu thật”. Dữ liệu cũ sẽ được xem là chưa đối chiếu cho đến khi có bộ sách, tập, bài và căn cứ cụ thể. Không tự đoán tên bài cho câu hỏi.</p>
+<div class="tool-controls">
+ <div><label for="curriculumFilterGrade">Lọc lớp</label><select id="curriculumFilterGrade"><option value="all">Tất cả lớp</option></select></div>
+ <div><label for="curriculumFilterSubject">Lọc môn</label><select id="curriculumFilterSubject"><option value="all">Tất cả môn</option></select></div>
+ <div><label for="curriculumFilterStatus">Lọc trạng thái</label><select id="curriculumFilterStatus"><option value="unmapped">Chưa đối chiếu / thiếu bài</option><option value="reviewing">Đang đối chiếu</option><option value="verified">Đã đối chiếu</option><option value="mismatch">Không khớp — cần sửa</option><option value="all">Tất cả</option></select></div>
+</div>
+<div class="teacher-stat-grid" id="curriculumAlignmentStats" aria-live="polite"></div>
+<div class="quiz-tools"><button class="primary" id="refreshCurriculumAlignment" type="button">🔎 Rà danh mục</button><button class="secondary" id="exportCurriculumAlignment" type="button">⬇️ Xuất bản ghi đối chiếu</button><button class="secondary" id="downloadCurriculumTemplate" type="button">📄 Tải mẫu CSV gán bài SGK</button></div>
+<div id="curriculumAlignmentResults" class="tool-results" aria-live="polite"><p class="muted">Bấm “Rà danh mục” để xem câu đã gắn bài SGK và câu còn thiếu thông tin.</p></div>
+<div id="curriculumAlignmentStatus" class="small-note" aria-live="polite"></div>
+<h4>📊 Tiến độ đối chiếu theo từng lớp–môn</h4>
+<p class="small-note">Bảng xếp những bộ lớp–môn còn thiếu nhiều câu đối chiếu lên trước. Bấm “Rà bộ này” để lọc danh sách câu cần xử lý. Tỉ lệ tính theo bản ghi có đủ thông tin và trạng thái đã xác minh, không phải đánh giá tự động chất lượng kiến thức.</p>
+<div class="coverage-wrap" id="curriculumCoverageResults" aria-live="polite"><p class="muted">Bảng tiến độ sẽ hiện sau khi rà danh mục.</p></div>
+<h4>📥 Nhập hàng loạt bản ghi đối chiếu từ CSV</h4>
+<p class="small-note">Dành cho việc chuẩn bị nhiều dòng theo bảng tính. Tải mẫu, điền đúng lớp–môn và số câu (bắt đầu từ 1), xem trước dữ liệu, rồi mới áp dụng. Dữ liệu nhập luôn chuyển sang “Đang đối chiếu”; không bao giờ tự biến thành “Đã đối chiếu”, kể cả CSV có ghi status=verified.</p>
+<label for="curriculumMapCsvFile">Chọn tệp CSV bản ghi đối chiếu</label>
+<input id="curriculumMapCsvFile" type="file" accept=".csv,text/csv" />
+<div class="curriculum-bulk-actions"><button type="button" class="primary" id="previewCurriculumMapCsv">1️⃣ Kiểm tra và xem trước CSV</button><button type="button" class="secondary" id="applyCurriculumMapCsv" disabled>2️⃣ Áp dụng các dòng hợp lệ</button><button type="button" class="secondary" id="exportUnmappedCurriculumCsv">⬇️ Xuất câu còn cần đối chiếu</button><button type="button" class="secondary" id="openNextUnmappedCurriculum">➡️ Mở câu tiếp theo cần rà</button></div>
+<div id="curriculumMapCsvPreview" class="tool-results" aria-live="polite"><p class="muted">Chưa chọn tệp CSV.</p></div>
+<div id="curriculumMapCsvStatus" class="small-note" aria-live="polite"></div>
+<hr />
+<h4>🔎 Máy dò câu trùng và dấu hiệu đáng ngờ</h4>
+<p class="small-note">Quét câu trùng nguyên văn và nghi trùng ý kể cả khi đổi tên nhân vật, đổi số liệu, đảo thứ tự từ/câu hoặc diễn đạt lại cùng chủ đề và đáp án; đồng thời kiểm tra phương án lặp, dấu hiệu sai lớp/môn, nguồn và cấu trúc. Hai câu được hiển thị cạnh nhau cùng lý do nghi trùng. Đây là bộ dò theo quy tắc chạy ngoại tuyến, không phải kết luận hiểu ngữ nghĩa tuyệt đối; công cụ chỉ cảnh báo và không tự sửa, gộp hay xóa câu.</p>
+<div class="tool-controls">
+ <div><label for="concernScope">Phạm vi dò trùng</label><select id="concernScope"><option value="all">Toàn bộ ngân hàng</option><option value="same-subject">Trong cùng môn</option><option value="cross-grade">Ưu tiên trùng giữa các lớp</option></select></div>
+ <div><label for="concernSimilarityMode">Độ nhạy dò gần nghĩa</label><select id="concernSimilarityMode"><option value="balanced" selected>Cân bằng · ít cảnh báo nhầm</option><option value="deep">Rà sâu · nhiều cảnh báo hơn</option></select></div>
+ <div><label for="concernType">Loại dấu hiệu</label><select id="concernType"><option value="all">Tất cả dấu hiệu</option><option value="duplicate">Câu trùng / gần giống</option><option value="semantic">Nghi trùng ý nghĩa / đổi dữ kiện</option><option value="answer">Đáp án/phương án bị lặp</option><option value="mismatch">Có thể sai lớp hoặc môn</option><option value="suspicious">Cấu trúc đáng ngờ</option><option value="source">Chưa ghi nguồn</option></select></div>
+ <div><label for="concernDecisionFilter">Trạng thái rà soát</label><select id="concernDecisionFilter"><option value="pending">Chưa xử lý</option><option value="all">Tất cả</option><option value="reviewed">Đã rà soát · giữ lại</option><option value="dismissed">Đã bỏ qua cảnh báo</option></select></div>
+</div>
+<div class="quiz-tools"><button type="button" class="primary" id="runQuestionConcernScan">🔎 Quét ngân hàng câu hỏi</button><button type="button" class="secondary" id="exportQuestionConcernScan">⬇️ Xuất danh sách rà soát</button></div>
+<div class="teacher-stat-grid" id="questionConcernStats" aria-live="polite"></div>
+<div class="tool-results" id="questionConcernResults" aria-live="polite"><p class="muted">Bấm “Quét ngân hàng câu hỏi” để xem các dấu hiệu cần kiểm tra.</p></div>
+<div id="questionConcernStatus" class="small-note" aria-live="polite"></div>
+<hr />
+<h4>📝 Tạo đề theo ma trận kiến thức</h4>
+<p class="small-note">Chọn phạm vi và tỉ lệ độ khó. Đề chỉ lấy câu có sẵn trong bộ lớp–môn; nếu thiếu câu ở mức nào, hệ thống sẽ báo và không tự bịa câu.</p>
+<div class="tool-controls"><div><label for="matrixGrade">Lớp</label><select id="matrixGrade"></select></div><div><label for="matrixSubject">Môn</label><select id="matrixSubject"></select></div></div>
+<div class="tool-controls"><div><label for="matrixTopic">Chủ đề trong ngân hàng</label><select id="matrixTopic"><option value="all">Tất cả chủ đề</option></select></div><div><label for="matrixCount">Số câu</label><select id="matrixCount"><option>5</option><option selected>10</option><option>15</option><option>20</option><option>25</option></select></div></div>
+<div class="tool-controls"><div><label for="matrixBookSeries">Bộ sách đã đối chiếu</label><select id="matrixBookSeries"><option value="all">Tất cả / không lọc bộ sách</option><option value="nxbgd-unified">Bộ SGK thống nhất · NXB Giáo dục Việt Nam</option><option value="ket-noi">Kết nối tri thức với cuộc sống</option><option value="chan-troi">Chân trời sáng tạo</option><option value="canh-dieu">Cánh Diều</option><option value="cung-hoc">Cùng học để phát triển năng lực</option><option value="binh-dang">Vì sự bình đẳng và dân chủ trong giáo dục</option><option value="other">Bộ sách khác</option></select></div><div><label for="matrixBookVolume">Tập</label><select id="matrixBookVolume"><option value="all">Tất cả tập</option><option value="single">Một cuốn / cả năm</option><option value="1">Tập 1</option><option value="2">Tập 2</option><option value="no-volume">Sách không chia tập</option></select></div><div><label for="matrixLesson">Bài SGK đã đối chiếu</label><select id="matrixLesson"><option value="all">Tất cả bài</option></select></div></div>
+<label class="curriculum-check-label" for="matrixMappedOnly"><input id="matrixMappedOnly" type="checkbox" checked /> Chỉ tạo đề từ câu đã đối chiếu SGK và có đủ lớp–môn–bộ sách–tập–bài</label>
+<div class="tool-controls"><div><label for="matrixEasy">Dễ (%)</label><input id="matrixEasy" type="number" min="0" max="100" value="40"></div><div><label for="matrixMedium">Vừa (%)</label><input id="matrixMedium" type="number" min="0" max="100" value="40"></div><div><label for="matrixHard">Khó (%)</label><input id="matrixHard" type="number" min="0" max="100" value="20"></div></div>
+<div class="quiz-tools"><button class="primary" id="generateMatrixExam" type="button">📝 Tạo và bắt đầu đề</button></div><div class="feedback" id="matrixStatus" aria-live="polite">Tổng tỉ lệ độ khó cần bằng 100%.</div>
+<hr />
+<h4>🕘 Lịch sử chỉnh sửa và khôi phục</h4>
+<p class="small-note">Lưu các phiên bản trước/sau khi chỉnh sửa trên thiết bị này để có thể khôi phục câu. Đây không phải nhật ký máy chủ và không xác định danh tính người sửa.</p>
+<div class="quiz-tools"><button class="secondary" id="refreshEditHistory" type="button">🔄 Xem lịch sử</button><button class="secondary" id="exportEditHistory" type="button">⬇️ Xuất lịch sử</button></div><div class="tool-results" id="editHistoryList" aria-live="polite"></div>
+<hr />
+<h4>📈 Thống kê độ khó thực tế</h4>
+<p class="small-note">Dựa trên lượt trả lời đã ghi trên thiết bị này. Đây là dữ liệu của người dùng hiện tại, không phải thống kê tổng hợp của nhiều học sinh.</p>
+<div class="quiz-tools"><button class="secondary" id="refreshQuestionPerformance" type="button">📊 Cập nhật thống kê</button><button class="secondary" id="exportQuestionPerformance" type="button">⬇️ Xuất thống kê</button></div><div class="tool-results" id="questionPerformanceList" aria-live="polite"></div>
+<hr />
+<h4>📥 Nhập / xuất ngân hàng câu hỏi</h4>
+<p class="small-note">Xuất JSON để sao lưu cả ngân hàng cùng nguồn/trạng thái/chỉnh sửa. Có thể nhập gói JSON do website này xuất hoặc CSV theo cột: grade,subject,prompt,optionA,optionB,optionC,optionD,answerIndex,difficulty,topic. Nhập sẽ tạo bản chỉnh sửa cục bộ, không sửa file gốc và cần xem lại trước khi duyệt.</p>
+<div class="quiz-tools"><button class="secondary" id="exportQuestionBank" type="button">⬇️ Xuất ngân hàng JSON</button><button class="secondary" id="downloadQuestionCsvTemplate" type="button">📄 Tải mẫu CSV</button></div>
+<label for="importQuestionBankFile">Chọn tệp JSON hoặc CSV để nhập</label><input id="importQuestionBankFile" type="file" accept=".json,.csv,application/json,text/csv" /><div class="quiz-tools"><button class="primary" id="importQuestionBank" type="button">📥 Kiểm tra và nhập</button></div><div class="feedback" id="questionBankImportStatus" aria-live="polite">Chưa chọn tệp.</div>
+<hr />
+<h4>🛡️ Chế độ học sinh / giáo viên</h4>
+<p class="small-note">Khóa giao diện chỉnh sửa bằng mã PIN cục bộ để tránh bấm nhầm. Vì website chạy phía trình duyệt, PIN cục bộ không phải bảo mật mạnh và không thay thế tài khoản/máy chủ.</p>
+<div class="tool-controls"><div><label for="teacherPinInput">Mã PIN giáo viên (4–12 ký tự)</label><input id="teacherPinInput" type="password" autocomplete="new-password" placeholder="Đặt hoặc nhập PIN" /></div><div><label for="teacherModeSelect">Chế độ</label><select id="teacherModeSelect"><option value="student">Học sinh</option><option value="teacher">Giáo viên</option></select></div></div><div class="quiz-tools"><button class="primary" id="applyTeacherMode" type="button">🔐 Áp dụng chế độ</button></div><div class="feedback" id="teacherModeStatus" aria-live="polite">Chế độ giao diện chỉ áp dụng trên thiết bị hiện tại.</div>
+<hr />
+<h4>🚩 Hàng chờ báo lỗi</h4>
+<p class="small-note">Báo lỗi do người dùng lưu trên thiết bị sẽ xuất hiện tại đây. Chọn “Mở trong trình sửa” để tìm câu tương ứng trong ngân hàng.</p>
+<div id="teacherReportQueue" class="tool-results" aria-live="polite"></div>
+<div class="quiz-tools"><button class="primary" id="exportTeacherReview" type="button">⬇️ Xuất báo lỗi + chỉnh sửa</button><button class="secondary" id="refreshTeacherReview" type="button">🔄 Làm mới hàng chờ</button></div>
+<div id="teacherReviewExportStatus" class="small-note" aria-live="polite"></div>
+</div>
+</div></div></section>
+
+<section class="hidden" id="help" aria-labelledby="helpTitle">
+  <div class="card">
+    <h2 id="helpTitle">📘 Hướng dẫn sử dụng website Học tập lớp 1–9</h2>
+    <p class="muted">Làm theo từng bước bên dưới. Mày có thể quay lại mục này bất cứ lúc nào bằng nút “📘 Hướng dẫn sử dụng”.</p>
+    <div class="guide-callout"><b>🌟 Bắt đầu nhanh:</b> Chọn <b>Kiến thức tổng hợp</b> để xem bài, hoặc chọn <b>Quiz</b> để luyện câu hỏi. Hãy chọn đúng lớp và môn trước khi bắt đầu.</div>
+    <div class="guide-actions">
+      <button class="primary" type="button" onclick="showTab('knowledge')">🧠 Mở Kiến thức</button>
+      <button class="primary" type="button" onclick="showTab('quiz')">📝 Bắt đầu Quiz</button>
+      <button class="secondary" type="button" onclick="showTab('tools')">🧰 Mở Công cụ</button>
+    </div>
+  </div>
+
+  <div class="guide-grid">
+    <article class="guide-step">
+      <h3>1. 🧠 Xem kiến thức theo lớp</h3>
+      <ol><li>Mở mục <b>Kiến thức tổng hợp</b>.</li><li>Chọn <b>Lớp</b> và <b>Môn</b> muốn học.</li><li>Nhập từ khóa vào ô tìm kiếm nếu cần tìm nhanh một chủ đề.</li><li>Chọn thẻ chủ đề để xem nội dung liên quan.</li></ol>
+    </article>
+    <article class="guide-step">
+      <h3>2. 📝 Làm bài Quiz / Thi thử</h3>
+      <ol><li>Mở <b>Quiz</b>, sau đó chọn đúng lớp và môn.</li><li>Chọn số câu, độ khó, thời gian mỗi câu và thời gian toàn bài nếu cần.</li><li>Nhấn <b>Bắt đầu Quiz / Thi thử</b>. Muốn hệ thống chọn bài ngẫu nhiên thì nhấn <b>Quiz ngẫu nhiên</b>.</li><li>Đọc kỹ câu hỏi, chọn đáp án rồi dùng các nút trên bài để tiếp tục hoặc kết thúc theo giao diện hiển thị.</li><li>Sau khi làm xong, xem điểm và ôn lại các câu sai.</li></ol>
+      <p class="muted">Nếu hệ thống báo chưa có câu hỏi ở bộ lớp–môn hoặc mức độ đã chọn, hãy thử chọn “Tất cả” ở độ khó hoặc chọn tổ hợp khác. Website không lấy câu của môn khác để bù.</p>
+    </article>
+    <article class="guide-step">
+      <h3>3. 📌 Lưu câu khó để ôn sau</h3>
+      <ol><li>Trong lúc đang làm Quiz, nhấn <b>📌 Lưu câu này để ôn</b> ở khu vực công cụ của câu hỏi.</li><li>Mở mục <b>Thành tích</b> và nhấn <b>Xem câu đã lưu</b>.</li><li>Dùng bộ lọc lớp và môn để tìm câu muốn ôn.</li><li>Chọn <b>Luyện câu này</b> để thực hành hoặc <b>Bỏ lưu</b> nếu không cần giữ nữa.</li></ol>
+    </article>
+    <article class="guide-step">
+      <h3>4. 🃏 Học bằng Flashcard</h3>
+      <ol><li>Mở <b>Flashcard</b>.</li><li>Chọn lớp, môn và bộ thẻ: <b>Chủ đề kiến thức</b> hoặc <b>Câu hỏi Quiz</b>.</li><li>Nhấn <b>Bắt đầu</b>, đọc mặt trước rồi nhấn thẻ hoặc nút <b>Lật thẻ</b> để xem mặt sau.</li><li>Dùng <b>Thẻ trước</b> / <b>Thẻ tiếp</b> để di chuyển; nhấn <b>Đã thuộc</b> khi nhớ được nội dung.</li></ol>
+    </article>
+    <article class="guide-step">
+      <h3>5. 📚 Mở sách giáo khoa điện tử</h3>
+      <ol><li>Mở <b>SGK điện tử</b>.</li><li>Chọn lớp, môn, tập (nếu có) và bộ sách phù hợp.</li><li>Kiểm tra phần “Sách đang chọn”, sau đó nhấn <b>Mở SGK</b> hoặc mở thư viện chính thức.</li></ol>
+      <p class="muted">Liên kết SGK cần Internet. Nếu cuốn chưa có đường dẫn trực tiếp đã xác minh, website sẽ mở danh mục để tránh đoán nhầm đường dẫn.</p>
+    </article>
+    <article class="guide-step">
+      <h3>6. 🧰 Sử dụng các công cụ học tập</h3>
+      <p>Mở <b>Công cụ mới</b> rồi chọn thẻ chức năng muốn dùng. Tùy bản đang mở, danh mục có thể gồm:</p>
+      <ul><li><b>Tìm kiếm toàn trang:</b> tìm nhanh trong nội dung có sẵn.</li><li><b>Tạo đề kiểm tra / Học theo chủ đề:</b> chọn phạm vi muốn luyện.</li><li><b>Ôn tập lỗi sai:</b> xem lại câu đã làm chưa đúng.</li><li><b>Báo câu hỏi lỗi:</b> ghi lại câu chưa rõ hoặc nghi ngờ sai.</li><li><b>Kiểm duyệt câu hỏi:</b> vào Công cụ mới → Kiểm duyệt câu hỏi để sửa câu/đáp án, nhập nguồn tham khảo đã đối chiếu, quét câu trùng/câu đáng ngờ và xử lý báo lỗi trên thiết bị hiện tại. Máy dò chỉ đưa ra cảnh báo; cần người kiểm tra đối chiếu sách/tài liệu trước khi đánh dấu “Đã kiểm tra”.</li><li><b>Mini-game / Phòng thí nghiệm ảo:</b> học qua hoạt động tương tác.</li><li><b>Tùy chỉnh giao diện:</b> chọn cách hiển thị phù hợp.</li></ul>
+      <p class="muted">Báo lỗi câu hỏi được lưu trên thiết bị hiện tại; chức năng này không tự gửi báo cáo cho giáo viên hoặc máy chủ.</p>
+    </article>
+    <article class="guide-step">
+      <h3>7. 🏆 Theo dõi tiến bộ</h3>
+      <p>Vào <b>Thành tích</b> để xem XP, xu, huy hiệu, số lượt làm bài, độ chính xác và câu đã lưu. Các con số thể hiện dữ liệu mà website đang lưu trên thiết bị, vì vậy chúng có thể khác khi đổi trình duyệt hoặc thiết bị.</p>
+      <div class="guide-actions"><button class="secondary" type="button" onclick="showTab('progress')">Mở Thành tích</button></div>
+    </article>
+    <article class="guide-step">
+      <h3>8. 📅 Lên lịch và chăm sóc thú cưng</h3>
+      <p>Trong <b>Kế hoạch</b>, đánh dấu nhiệm vụ hằng ngày, nhập thời khóa biểu và thêm việc cần làm. Trong <b>Thú cưng</b>, dùng xu nhận được khi học để cho ăn hoặc chơi. Đây là tính năng tạo động lực, không phải điểm chính thức ở trường.</p>
+      <div class="guide-actions"><button class="secondary" type="button" onclick="showTab('planner')">Mở Kế hoạch</button><button class="secondary" type="button" onclick="showTab('pet')">Mở Thú cưng</button></div>
+    </article>
+    <article class="guide-step">
+      <h3>9. 💾 Sao lưu dữ liệu học tập</h3>
+      <ol><li>Mở <b>Dùng offline</b> hoặc phần sao lưu trong <b>Công cụ mới</b>.</li><li>Nhấn <b>Xuất bản sao lưu</b> để tải tệp JSON về thiết bị.</li><li>Để khôi phục, chọn đúng tệp sao lưu đã lưu và xác nhận theo thông báo của website.</li></ol>
+      <div class="guide-callout"><b>Quan trọng:</b> Xuất tệp sao lưu định kỳ, nhất là trước khi xóa dữ liệu trình duyệt hoặc đổi thiết bị. Nếu trình duyệt chặn lưu trữ, dữ liệu có thể chỉ còn trong phiên hiện tại.</div>
+      <div class="guide-actions"><button class="secondary" type="button" onclick="showTab('offline')">Mở Sao lưu / Offline</button></div>
+    </article>
+    <article class="guide-step">
+      <h3>10. 📱 Dùng trên điện thoại hoặc khi mất mạng</h3>
+      <ul><li>Mở website qua HTTPS hoặc localhost; không mở trực tiếp bằng file:// vì dữ liệu JSON sẽ có thể bị trình duyệt chặn.</li><li>Trên điện thoại, mở URL website bằng trình duyệt hỗ trợ cài đặt website/PWA và thêm vào màn hình chính nếu cần.</li><li>Sau khi website tải dữ liệu và bộ nhớ đệm lần đầu, kiến thức, Quiz và flashcard có thể hoạt động khi mất mạng; liên kết SGK bên ngoài vẫn cần Internet.</li><li>Giữ một bản sao lưu JSON ở nơi an toàn để khôi phục tiến độ khi đổi trình duyệt hoặc thiết bị.</li></ul>
+    </article>
+  </div>
+
+  <div class="card">
+    <h2>❓ Một số câu hỏi thường gặp</h2>
+    <details><summary>Website có tự gửi dữ liệu học tập lên mạng không?</summary><p>Website được thiết kế để lưu tiến độ trên trình duyệt của thiết bị. Báo lỗi câu hỏi cũng chỉ lưu tại chỗ, không tự gửi đi. Khi dùng liên kết SGK bên ngoài, trình duyệt sẽ mở trang của đơn vị cung cấp sách.</p></details>
+    <details><summary>Vì sao điểm hoặc ghi chú biến mất khi đổi trình duyệt?</summary><p>Dữ liệu có thể được lưu theo trình duyệt và thiết bị. Hãy mở lại bằng trình duyệt đã dùng trước đó hoặc thử khôi phục từ tệp sao lưu JSON.</p></details>
+    <details><summary>Vì sao không thấy câu hỏi ở lớp hoặc môn đã chọn?</summary><p>Một số tổ hợp hoặc độ khó có thể chưa có đủ câu hỏi. Thử chọn “Tất cả” ở mục độ khó. Không nên lấy câu của môn khác để làm đầy đề.</p></details>
+    <details><summary>Câu hỏi và đáp án đã chắc chắn đúng hết chưa?</summary><p>Chưa thể đảm bảo toàn bộ ngân hàng câu hỏi đã được đối chiếu với sách giáo khoa. Nếu thấy nội dung chưa rõ hoặc nghi ngờ đáp án, hãy ghi nhận bằng công cụ báo lỗi và đối chiếu với sách/tài liệu đáng tin cậy.</p></details>
+  </div>
+</section>
+
+</main>
+<footer>💾 Tiến độ được lưu trên thiết bị bằng trình duyệt • 📚 Có liên kết SGK điện tử • Giao diện responsive</footer>
+
+
+
+
+
+
+
+
+
+<script src="assets/js/knowledge.js"></script>
+</body>
+</html>

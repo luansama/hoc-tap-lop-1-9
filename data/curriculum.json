@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "name": "Học Tập Lớp 1–9",
+  "sourceBasis": "Danh sách lớp/môn và lựa chọn bộ SGK được lấy từ file HTML gốc.",
+  "grades": [
+    {
+      "grade": 1,
+      "subjects": [
+        "Toán",
+        "Tiếng Việt",
+        "Tự nhiên và Xã hội",
+        "Đạo đức",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 2,
+      "subjects": [
+        "Toán",
+        "Tiếng Việt",
+        "Tự nhiên và Xã hội",
+        "Đạo đức",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 3,
+      "subjects": [
+        "Toán",
+        "Tiếng Việt",
+        "Tự nhiên và Xã hội",
+        "Đạo đức",
+        "Tin học",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 4,
+      "subjects": [
+        "Toán",
+        "Tiếng Việt",
+        "Khoa học",
+        "Lịch sử và Địa lí",
+        "Đạo đức",
+        "Tin học",
+        "Công nghệ",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 5,
+      "subjects": [
+        "Toán",
+        "Tiếng Việt",
+        "Khoa học",
+        "Lịch sử và Địa lí",
+        "Đạo đức",
+        "Tin học",
+        "Công nghệ",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 6,
+      "subjects": [
+        "Toán",
+        "Ngữ văn",
+        "Khoa học tự nhiên",
+        "Lịch sử và Địa lí",
+        "GDCD",
+        "Tin học",
+        "Công nghệ",
+        "Ngoại ngữ",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 7,
+      "subjects": [
+        "Toán",
+        "Ngữ văn",
+        "Khoa học tự nhiên",
+        "Lịch sử và Địa lí",
+        "GDCD",
+        "Tin học",
+        "Công nghệ",
+        "Ngoại ngữ",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 8,
+      "subjects": [
+        "Toán",
+        "Ngữ văn",
+        "Khoa học tự nhiên",
+        "Lịch sử và Địa lí",
+        "GDCD",
+        "Tin học",
+        "Công nghệ",
+        "Ngoại ngữ",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    },
+    {
+      "grade": 9,
+      "subjects": [
+        "Toán",
+        "Ngữ văn",
+        "Khoa học tự nhiên",
+        "Lịch sử và Địa lí",
+        "GDCD",
+        "Tin học",
+        "Công nghệ",
+        "Ngoại ngữ",
+        "Âm nhạc",
+        "Mĩ thuật"
+      ]
+    }
+  ],
+  "bookSeries": [
+    {
+      "id": "unified",
+      "name": "Bộ SGK thống nhất",
+      "publisher": "Nhà xuất bản Giáo dục Việt Nam",
+      "note": "Liên kết mở danh mục/đọc sách được giữ từ bản gốc; cần kiểm tra đường dẫn thực tế trước khi coi là dẫn chiếu chính xác."
+    },
+    {
+      "id": "ket-noi",
+      "name": "Kết nối tri thức với cuộc sống",
+      "note": "Lựa chọn bộ sách có trong bản gốc."
+    },
+    {
+      "id": "chan-troi",
+      "name": "Chân trời sáng tạo",
+      "note": "Lựa chọn bộ sách có trong bản gốc."
+    },
+    {
+      "id": "canh-dieu",
+      "name": "Cánh Diều",
+      "note": "Lựa chọn bộ sách có trong bản gốc."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Danh mục tập huấn/SGK của Nhà xuất bản Giáo dục Việt Nam",
+      "url": "https://taphuan.nxbgd.vn/tap-huan"
+    },
+    {
+      "title": "Trang Nhà xuất bản Giáo dục Việt Nam",
+      "url": "https://www.nxbgd.vn/"
+    }
+  ],
+  "warning": "Đây là cấu trúc danh mục lớp/môn và lựa chọn sách, không phải lời xác nhận rằng mọi đường dẫn hoặc mọi câu hỏi đã được đối chiếu SGK."
+}

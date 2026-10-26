@@ -1,0 +1,5119 @@
+{
+  "schemaVersion": 1,
+  "notice": "Các mục dưới đây là nhãn/chủ đề được suy ra từ danh sách topics và trường topic trong ngân hàng câu hỏi nguồn. Chúng không được trình bày như tên bài SGK đã xác minh, và không tự tạo thêm nội dung bài học.",
+  "grades": {
+    "1": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 11,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép cộng",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép trừ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "So sánh số",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số tự nhiên",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số và phép tính",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thời gian",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tiếng Việt",
+        "topics": [
+          {
+            "title": "Chữ và âm",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Câu",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu câu",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu thanh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Giao tiếp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiếng Việt",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ ngữ",
+            "questionCount": 8,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vần",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Âm tiết",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tự nhiên và Xã hội",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ thể",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cộng đồng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gia đình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh vật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sức khỏe",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực vật",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tìm hiểu tự nhiên",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự nhiên",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đo lường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Động vật",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Đạo đức",
+        "topics": [
+          {
+            "title": "Giải quyết mâu thuẫn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung thực",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 8,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tôn trọng",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yêu thương",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Luyện tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thưởng thức âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cảm nhận và đánh giá",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố tạo hình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 10,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép chia",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép cộng",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép nhân",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép trừ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "So sánh số",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số tự nhiên",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thời gian",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tiếng Việt",
+        "topics": [
+          {
+            "title": "Chính tả",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Câu hỏi",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu câu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kiểu câu",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ loại",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ ngữ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ trái nghĩa",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ đồng nghĩa",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tự nhiên và Xã hội",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ thể",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cộng đồng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sức khỏe",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực vật",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Động vật",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Đạo đức",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung thực",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tôn trọng",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yêu thương",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Biểu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 12,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân số",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép chia",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép nhân",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số tự nhiên",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số và phép tính",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại lượng",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tiếng Việt",
+        "topics": [
+          {
+            "title": "Biện pháp tu từ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chính tả",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cấu tạo câu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu câu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kiểu câu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quan hệ từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ loại",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ ngữ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ trái nghĩa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ đồng nghĩa",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tự nhiên và Xã hội",
+        "topics": [
+          {
+            "title": "Cơ thể",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hệ sinh thái",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lực",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nước",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh vật",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sức khỏe",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực vật",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tài nguyên",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Động vật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Đạo đức",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung thực",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tôn trọng",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yêu thương",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "An toàn số",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 1 — Thông tin và quyết định",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10 — An toàn khi dùng máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10 — An toàn số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10 — Bảo vệ thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Xử lí thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Máy tính và em",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Làm việc với máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Sử dụng bàn phím",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Khám phá Internet",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Tìm kiếm thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Đánh giá thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 7 — Sắp xếp để dễ tìm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Sơ đồ hình cây",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Tổ chức thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9 — Thực hành tệp và thư mục",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9 — Tệp và thư mục",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quản lí tệp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thuật toán",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành — Máy tính và em",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tìm kiếm và đánh giá thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Biểu thức",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 10,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu hiệu chia hết",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân số",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép chia",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phép nhân",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số tự nhiên",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thời gian",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung bình cộng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tiếng Việt",
+        "topics": [
+          {
+            "title": "Biện pháp tu từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Câu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cấu tạo câu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu câu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quan hệ từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ trái nghĩa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ tượng hình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ tượng thanh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ đồng nghĩa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Khoa học",
+        "topics": [
+          {
+            "title": "Con người",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hô hấp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Không khí",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lực",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nước",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh vật",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tìm hiểu tự nhiên",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật chất",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Âm thanh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đo lường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Lịch sử và Địa lí",
+        "topics": [
+          {
+            "title": "Bản đồ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khai thác tư liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lịch sử Việt Nam",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Niên đại",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí thế giới",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí Việt Nam",
+            "questionCount": 9,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Đạo đức",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung thực",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tôn trọng",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yêu thương",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "Bài 1 — Phần cứng và phần mềm",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10 — Soạn thảo văn bản",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 11 — Chỉnh sửa văn bản",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 12A — Thực hành đa phương tiện",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 12B — Luyện tập gõ bàn phím",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 14 — Lập trình trực quan",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 15 — Tạo chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Chương trình của em",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Gõ bàn phím đúng cách",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Thông tin trên trang web",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Tìm kiếm thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Tệp và thư mục",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Sử dụng phần mềm khi được phép",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Đạo đức số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 7 — Tạo bài trình chiếu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Định dạng trang chiếu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9 — Hiệu ứng chuyển trang",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành — Sử dụng máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Công nghệ",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "An toàn lao động",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bản vẽ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gia đình",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kĩ thuật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quy trình thiết kế",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trồng trọt",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật liệu",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đo lường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 11,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân số",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số thập phân",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung bình cộng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ số phần trăm",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại lượng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tiếng Việt",
+        "topics": [
+          {
+            "title": "Biện pháp tu từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Câu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cấu tạo câu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Dấu câu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quan hệ từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ trái nghĩa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ tượng hình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ tượng thanh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Từ đồng nghĩa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Khoa học",
+        "topics": [
+          {
+            "title": "Con người",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nước",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh vật",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực vật",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiêu hóa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tuần hoàn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật chất",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ánh sáng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Âm thanh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Lịch sử và Địa lí",
+        "topics": [
+          {
+            "title": "Lịch sử Việt Nam",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lịch sử và văn hóa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí thế giới",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí Việt Nam",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Đạo đức",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trung thực",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tôn trọng",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yêu thương",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "An toàn thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 1 — Em có thể làm gì với máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10 — Cấu trúc tuần tự",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 11 — Cấu trúc lặp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 13 — Cấu trúc rẽ nhánh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 14 — Sử dụng biến",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 15 — Biểu thức trong chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Kiểm thử chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Từ kịch bản đến chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Tìm kiếm trên website",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Tìm kiếm để giải quyết vấn đề",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Cây thư mục",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Tổ chức thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Bản quyền nội dung thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Đạo đức và pháp luật số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Bố trí văn bản",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Định dạng kí tự",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8A — Phần mềm đồ họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9A — Sản phẩm số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Công nghệ",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bản vẽ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gia đình",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kĩ thuật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trồng trọt",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật liệu",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đo lường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "6": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Biểu thức",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Biểu thức đại số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 9,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hàm số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân số",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số nguyên",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số thập phân",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số tự nhiên",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thống kê",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ số",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tọa độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Xác suất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngữ văn",
+        "topics": [
+          {
+            "title": "Miêu tả",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ngôi kể",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thơ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiếng Việt",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tu từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự sự",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đoạn văn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 7,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Khoa học tự nhiên",
+        "topics": [
+          {
+            "title": "Chuyển động",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hệ sinh thái",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hỗn hợp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khối lượng riêng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lực",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nguyên tử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh vật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực vật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trái Đất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trạng thái",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tách chất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tìm hiểu tự nhiên",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tế bào",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vũ trụ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ánh sáng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Âm thanh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đo lường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Lịch sử và Địa lí",
+        "topics": [
+          {
+            "title": "Lịch sử thế giới",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lịch sử Việt Nam",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí kinh tế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí thế giới",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí Việt Nam",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "GDCD",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Công dân số",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cộng đồng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Giải quyết mâu thuẫn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Học tập",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khoan dung",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kỉ luật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nghĩa vụ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Pháp luật",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền con người",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền và nghĩa vụ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tôn trọng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "Bài 1 — Thông tin và dữ liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 1 — Vật mang tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 15 — Thuật toán",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Cấu trúc điều khiển",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Thuật toán và chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Xử lí thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Thông tin trong máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Mạng máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Internet",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Mạng thông tin toàn cầu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 7 — Tìm kiếm thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Thư điện tử",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9 — An toàn thông tin",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Công nghệ",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bản vẽ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ khí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nông nghiệp",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngoại ngữ",
+        "topics": [
+          {
+            "title": "Advice",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Communication",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Comparative",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Conditionals",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gerund",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Grammar",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Modal verbs",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Past simple",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Plural nouns",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Prepositions",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Present continuous",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Present simple",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quantifiers",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Questions",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Reading skills",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Speaking",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "There is/are",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Verb to be",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vocabulary",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "7": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Biểu thức đại số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 9,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Góc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hàm số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lũy thừa",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số hữu tỉ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Số thực",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thống kê",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ lệ thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Xác suất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đa thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đại số",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngữ văn",
+        "topics": [
+          {
+            "title": "Biểu cảm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Miêu tả",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ngôi kể",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thơ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiếng Việt",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tu từ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự sự",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đoạn văn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Khoa học tự nhiên",
+        "topics": [
+          {
+            "title": "Chất",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Di truyền",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa học",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khối lượng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lực",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nguyên tố",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhiệt",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân tử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh thái",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực vật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tế bào",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ánh sáng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Áp suất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Lịch sử và Địa lí",
+        "topics": [
+          {
+            "title": "Lịch sử thế giới",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lịch sử Việt Nam",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí kinh tế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí thế giới",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí Việt Nam",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "GDCD",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Công dân số",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cộng đồng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Học tập",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khoan dung",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kỉ luật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nghĩa vụ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Pháp luật",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền con người",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền và nghĩa vụ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "Bài 1 — Thiết bị vào - ra",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10 — Hoàn thiện bảng tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 11 — Tạo bài trình chiếu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 12 — Định dạng trang chiếu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 14 — Tìm kiếm tuần tự",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 15 — Tìm kiếm nhị phân",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Thuật toán sắp xếp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Phần mềm máy tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Quản lí dữ liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Mạng xã hội",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Trao đổi thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Văn hóa số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Ứng xử trên mạng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Bảng tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Phần mềm bảng tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 7 — Tính toán tự động",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Công cụ tính toán",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9 — Trình bày bảng tính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Công nghệ",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bản vẽ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ khí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nông nghiệp",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngoại ngữ",
+        "topics": [
+          {
+            "title": "Advice",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Comparative",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gerund",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Modal verbs",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Past continuous",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Past simple",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Plural nouns",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Prepositions",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Present simple",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quantifiers",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Questions",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Speaking",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "There is/are",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Verb to be",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vocabulary",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "8": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Biểu thức đại số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 9,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Căn thức",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hàm số",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 6,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hằng đẳng thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lũy thừa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phân tích đa thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phương trình",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ lệ thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tứ giác",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngữ văn",
+        "topics": [
+          {
+            "title": "Miêu tả",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nghị luận",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ngôi kể",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thơ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiếng Việt",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tu từ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự sự",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đoạn văn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Khoa học tự nhiên",
+        "topics": [
+          {
+            "title": "Axit-bazơ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Di truyền",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lượng chất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Mạch điện",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phản ứng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phản ứng hóa học",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quang học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh thái",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tế bào",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật lí",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ánh sáng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Áp suất",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Lịch sử và Địa lí",
+        "topics": [
+          {
+            "title": "Lịch sử thế giới",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lịch sử Việt Nam",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí kinh tế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí thế giới",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí Việt Nam",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "GDCD",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Công dân số",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cộng đồng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Học tập",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khoan dung",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kỉ luật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nghĩa vụ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Pháp luật",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền con người",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền và nghĩa vụ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "Bài 1 — Lược sử công cụ tính toán",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 11 — Bản mẫu trình chiếu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 12 — Từ thuật toán đến chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 13 — Biểu diễn dữ liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 14 — Cấu trúc điều khiển",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 15 — Gỡ lỗi",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Tin học với nghề nghiệp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Thông tin trong môi trường số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Khai thác thông tin số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Văn hóa số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Đạo đức số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Bảng tính thực tế",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Sắp xếp và lọc dữ liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 7 — Trực quan hóa dữ liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Danh sách trong văn bản",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8A — Soạn thảo và trình chiếu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9 — Đầu trang và chân trang",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9B — Chỉnh sửa ảnh",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Công nghệ",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bản vẽ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ khí",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nông nghiệp",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điều khiển",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngoại ngữ",
+        "topics": [
+          {
+            "title": "Advice",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Conjunctions",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "First conditional",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gerund",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Modal verbs",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Passive voice",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Plural nouns",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Prepositions",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Present continuous",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Present perfect",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quantifiers",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Questions",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Reported speech",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Speaking",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vocabulary",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ],
+    "9": [
+      {
+        "subject": "Toán",
+        "topics": [
+          {
+            "title": "Biểu thức đại số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài toán thực tế",
+            "questionCount": 9,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Căn thức",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hàm số",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình học",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hệ phương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lượng giác",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phương trình bậc hai",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tỉ số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Xác suất",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đa giác",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đường tròn",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngữ văn",
+        "topics": [
+          {
+            "title": "Miêu tả",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nghị luận",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ngôi kể",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thơ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiếng Việt",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tu từ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự sự",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Viết",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đoạn văn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đọc hiểu",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Khoa học tự nhiên",
+        "topics": [
+          {
+            "title": "Chuyển động",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ năng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Di truyền",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa học",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Oxi hóa-khử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quang học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sinh thái",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thực hành khoa học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật lí",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Âm học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Lịch sử và Địa lí",
+        "topics": [
+          {
+            "title": "Lịch sử thế giới",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Lịch sử Việt Nam",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí kinh tế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí thế giới",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Địa lí Việt Nam",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "GDCD",
+        "topics": [
+          {
+            "title": "Công bằng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Công dân số",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cộng đồng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Học tập",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khoan dung",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Kỉ luật",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Môi trường",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nghĩa vụ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Pháp luật",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền con người",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quyền và nghĩa vụ",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trách nhiệm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tự chủ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Đạo đức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Ứng xử",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Tin học",
+        "topics": [
+          {
+            "title": "Bài 1 — Thế giới kĩ thuật số",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10A — Hàm COUNTIF",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 10B — Dựng video theo kịch bản",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 11A — Hàm SUMIF",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 12A — Hàm IF",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 13A — Quản lí tài chính",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 13B — Biên tập và xuất video",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 14 — Giải quyết vấn đề",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 15 — Bài toán tin học",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 16 — Lập chương trình",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 17 — Tin học và nghề nghiệp",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 2 — Thông tin trong giải quyết vấn đề",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 3 — Đánh giá chất lượng thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 4 — Pháp lí về dịch vụ Internet",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 5 — Phần mềm mô phỏng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 6 — Khai thác phần mềm mô phỏng",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 7 — Trình bày thông tin",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 8 — Công cụ trực quan và hợp tác",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài 9A — Xác thực dữ liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bảo vệ dữ liệu cá nhân",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Công nghệ",
+        "topics": [
+          {
+            "title": "An toàn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bản vẽ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cơ khí",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nông nghiệp",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Năng lượng",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phát triển bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thiết kế bền vững",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vật liệu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điện",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Ngoại ngữ",
+        "topics": [
+          {
+            "title": "Advice",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Conjunctions",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Future perfect",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Gerund",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Modal verbs",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Passive voice",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Plural nouns",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Prepositions",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Present continuous",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Quantifiers",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Questions",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Reported speech",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Second conditional",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Speaking",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Vocabulary",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Âm nhạc",
+        "topics": [
+          {
+            "title": "Biểu diễn",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Bài hát",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cao độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Cường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hòa âm",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hóa biểu",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Khuông nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc cụ",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhạc lí",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nhịp",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Nốt nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Tiết tấu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trường độ",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Yếu tố âm nhạc",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Điệu thức",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      },
+      {
+        "subject": "Mĩ thuật",
+        "topics": [
+          {
+            "title": "Bố cục",
+            "questionCount": 4,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Chất liệu",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình họa",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Hình khối",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Màu sắc",
+            "questionCount": 5,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Phối cảnh",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Sáng tạo",
+            "questionCount": 2,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Thể loại",
+            "questionCount": 3,
+            "verificationStatus": "unverified"
+          },
+          {
+            "title": "Trưng bày",
+            "questionCount": 1,
+            "verificationStatus": "unverified"
+          }
+        ]
+      }
+    ]
+  }
+}

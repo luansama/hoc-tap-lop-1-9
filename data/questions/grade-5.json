@@ -1,0 +1,2995 @@
+{
+  "schemaVersion": 1,
+  "grade": 5,
+  "subjectCount": 9,
+  "questionCount": 196,
+  "provenance": "Tách từ ngân hàng câu hỏi của file HTML gốc; lựa chọn và chỉ số đáp án giữ nguyên theo dữ liệu đã sinh của bản cũ.",
+  "reviewNotice": "Các câu hỏi chưa được tự động xác minh với từng bài/trang SGK cụ thể. reviewStatus=unverified cho đến khi người kiểm tra xác nhận.",
+  "subjects": [
+    {
+      "name": "Toán",
+      "questions": [
+        {
+          "id": "g5-to-n-001",
+          "prompt": "3/4 + 1/8 = ?",
+          "options": [
+            "5/8",
+            "9/8",
+            "1",
+            "7/8"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Phân số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-002",
+          "prompt": "5/6 - 1/3 = ?",
+          "options": [
+            "1/3",
+            "2/3",
+            "1/2",
+            "1/6"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Phân số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-003",
+          "prompt": "2,5 + 1,75 = ?",
+          "options": [
+            "5,25",
+            "4,50",
+            "3,25",
+            "4,25"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Số thập phân",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-004",
+          "prompt": "7,2 × 10 = ?",
+          "options": [
+            "72",
+            "720",
+            "0,72",
+            "7,2"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Số thập phân",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-005",
+          "prompt": "15,6 : 3 = ?",
+          "options": [
+            "5,2",
+            "5,3",
+            "5,4",
+            "5,6"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Số thập phân",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-006",
+          "prompt": "25% của 200 là:",
+          "options": [
+            "50",
+            "75",
+            "40",
+            "25"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Tỉ số phần trăm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-007",
+          "prompt": "Nếu 60 là 30% của một số thì số đó là:",
+          "options": [
+            "200",
+            "220",
+            "240",
+            "180"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Tỉ số phần trăm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-008",
+          "prompt": "Diện tích tam giác có đáy 10 cm, chiều cao 6 cm là:",
+          "options": [
+            "60 cm²",
+            "40 cm²",
+            "16 cm²",
+            "30 cm²"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Hình học",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-009",
+          "prompt": "Hình hộp chữ nhật dài 5 cm, rộng 4 cm, cao 3 cm có thể tích:",
+          "options": [
+            "60 cm³",
+            "20 cm³",
+            "12 cm³",
+            "80 cm³"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Hình học",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-010",
+          "prompt": "Trung bình cộng của 12, 15, 18, 21 là:",
+          "options": [
+            "18",
+            "16,5",
+            "15",
+            "17"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Trung bình cộng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-011",
+          "prompt": "0,75 viết dưới dạng phân số tối giản là:",
+          "options": [
+            "3/4",
+            "7/5",
+            "1/4",
+            "75/10"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Số thập phân",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-012",
+          "prompt": "Phân số nào lớn nhất?",
+          "options": [
+            "4/5",
+            "3/5",
+            "1/5",
+            "2/5"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Phân số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-013",
+          "prompt": "Một xe đi 120 km trong 3 giờ. Trung bình mỗi giờ đi:",
+          "options": [
+            "60 km",
+            "50 km",
+            "30 km",
+            "40 km"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-014",
+          "prompt": "15% của 80 là:",
+          "options": [
+            "15",
+            "8",
+            "12",
+            "10"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Tỉ số phần trăm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-015",
+          "prompt": "Tỉ số 2 : 5 viết thành phân số là:",
+          "options": [
+            "5/2",
+            "2/5",
+            "5/7",
+            "2/7"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Tỉ số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-016",
+          "prompt": "Một bể có 2,4 m³ nước. Đã dùng 0,75 m³. Còn:",
+          "options": [
+            "1,55 m³",
+            "1,85 m³",
+            "1,75 m³",
+            "1,65 m³"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Số thập phân",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-017",
+          "prompt": "Một hình tròn có bán kính 5 cm. Chu vi theo π=3,14 là:",
+          "options": [
+            "31,4 cm",
+            "78,5 cm",
+            "62,8 cm",
+            "15,7 cm"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Hình học",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-018",
+          "prompt": "Diện tích hình tròn bán kính 4 cm, π=3,14 là:",
+          "options": [
+            "50,24 cm²",
+            "12,56 cm²",
+            "100,48 cm²",
+            "25,12 cm²"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Hình học",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-019",
+          "prompt": "Nếu giảm một số đi 20% thì còn 80. Số ban đầu là:",
+          "options": [
+            "160",
+            "100",
+            "90",
+            "120"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Tỉ số phần trăm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-020",
+          "prompt": "3,6 + 2,45 - 1,2 = ?",
+          "options": [
+            "4,75",
+            "5,85",
+            "6,05",
+            "4,85"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Số thập phân",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-021",
+          "prompt": "Một thư viện xếp 17 quyển sách vào mỗi chồng và có 5 chồng. Có tất cả bao nhiêu quyển?",
+          "options": [
+            "22",
+            "85",
+            "80",
+            "86"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-022",
+          "prompt": "Tính 7/9 + 6/9 (giữ nguyên mẫu số).",
+          "options": [
+            "12/9",
+            "14/9",
+            "13/9",
+            "8/18"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Phân số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-023",
+          "prompt": "Một hình chữ nhật dài 11 cm, rộng 6 cm. Chu vi là:",
+          "options": [
+            "34 cm",
+            "22 cm",
+            "12 cm",
+            "32 cm"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Hình học",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-024",
+          "prompt": "Đổi 7 m ra xăng-ti-mét:",
+          "options": [
+            "700 cm",
+            "70 cm",
+            "7000 cm",
+            "7 cm"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Đại lượng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-025",
+          "prompt": "Một cửa hàng có 60 chiếc bút, bán 20 chiếc. Còn lại:",
+          "options": [
+            "50",
+            "40",
+            "55",
+            "80"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-026",
+          "prompt": "Một trường có 240 học sinh tham gia ngày hội; 25% số học sinh tham gia đội văn nghệ. Đội văn nghệ có bao nhiêu học sinh?",
+          "options": [
+            "60",
+            "80",
+            "50",
+            "40"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-027",
+          "prompt": "Mua 2,5 kg táo với giá 18 000 đồng/kg. Cần trả bao nhiêu tiền?",
+          "options": [
+            "36 000 đồng",
+            "40 000 đồng",
+            "45 000 đồng",
+            "54 000 đồng"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-028",
+          "prompt": "Bể chứa hình hộp chữ nhật dài 2 m, rộng 1,5 m, cao 1 m. Thể tích bể là bao nhiêu?",
+          "options": [
+            "4 m³",
+            "3 m³",
+            "4,5 m³",
+            "6 m³"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-029",
+          "prompt": "Một quyển sách có 120 trang. Học sinh đã đọc 3/5 số trang. Đã đọc bao nhiêu trang?",
+          "options": [
+            "80",
+            "60",
+            "72",
+            "65"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-030",
+          "prompt": "Một xe đi 150 km trong 3 giờ với vận tốc trung bình không đổi. Vận tốc trung bình là bao nhiêu?",
+          "options": [
+            "45 km/h",
+            "50 km/h",
+            "60 km/h",
+            "55 km/h"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-031",
+          "prompt": "Vườn hoa hình chữ nhật rộng 15 m, dài 24 m. Một phần tư diện tích vườn được trồng hoa hồng. Diện tích trồng hoa hồng là bao nhiêu?",
+          "options": [
+            "60 m²",
+            "120 m²",
+            "75 m²",
+            "90 m²"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-032",
+          "prompt": "Một chiếc cặp giá 350 000 đồng được giảm giá 10%. Giá sau khi giảm là bao nhiêu?",
+          "options": [
+            "300 000 đồng",
+            "340 000 đồng",
+            "320 000 đồng",
+            "315 000 đồng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-to-n-033",
+          "prompt": "Bình có 4 3/4 lít nước, đã dùng 1 1/2 lít. Bình còn lại bao nhiêu lít nước?",
+          "options": [
+            "3 1/2 lít",
+            "3 1/4 lít",
+            "2 1/4 lít",
+            "4 1/4 lít"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Bài toán thực tế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Tiếng Việt",
+      "questions": [
+        {
+          "id": "g5-ti-ng-vi-t-001",
+          "prompt": "Danh từ là từ chỉ:",
+          "options": [
+            "Sự vật",
+            "Đặc điểm",
+            "Hoạt động",
+            "Quan hệ"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Từ loại",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-002",
+          "prompt": "Động từ thường chỉ:",
+          "options": [
+            "Hoạt động, trạng thái",
+            "Số lượng",
+            "Sự vật",
+            "Màu sắc"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Từ loại",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-003",
+          "prompt": "Tính từ thường chỉ:",
+          "options": [
+            "Nơi chốn",
+            "Hoạt động",
+            "Đặc điểm, tính chất",
+            "Tên người"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Từ loại",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-004",
+          "prompt": "Trong câu “Những cánh chim bay lượn trên trời”, chủ ngữ là:",
+          "options": [
+            "trên trời",
+            "chim bay",
+            "những cánh chim",
+            "bay lượn"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Cấu tạo câu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-005",
+          "prompt": "Từ nào là quan hệ từ?",
+          "options": [
+            "chạy",
+            "bút",
+            "đẹp",
+            "và"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Quan hệ từ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-006",
+          "prompt": "Câu ghép thường có:",
+          "options": [
+            "Chỉ một từ",
+            "Một cụm từ",
+            "Từ hai vế câu trở lên",
+            "Chỉ câu hỏi"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Câu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-007",
+          "prompt": "Cặp quan hệ từ “vì… nên…” biểu thị quan hệ:",
+          "options": [
+            "Tương phản",
+            "Nguyên nhân – kết quả",
+            "Lựa chọn",
+            "Điều kiện"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Quan hệ từ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-008",
+          "prompt": "Hình ảnh “Mặt trời như quả cầu lửa” dùng biện pháp:",
+          "options": [
+            "So sánh",
+            "Nhân hóa",
+            "Hoán dụ",
+            "Điệp từ"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Biện pháp tu từ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-009",
+          "prompt": "Nhân hóa là:",
+          "options": [
+            "So sánh hai vật",
+            "Gọi vật như người, tả vật bằng đặc điểm của người",
+            "Lặp âm",
+            "Nói quá"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Biện pháp tu từ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-010",
+          "prompt": "Từ “gan dạ” gần nghĩa với:",
+          "options": [
+            "chậm chạp",
+            "buồn",
+            "nhút nhát",
+            "can đảm"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Từ đồng nghĩa",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-011",
+          "prompt": "Từ “chăm chỉ” trái nghĩa với:",
+          "options": [
+            "lười biếng",
+            "cẩn thận",
+            "kiên trì",
+            "siêng năng"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Từ trái nghĩa",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-012",
+          "prompt": "Dấu ngoặc kép có thể dùng để:",
+          "options": [
+            "Bắt buộc trong mọi câu",
+            "Ngăn cách chủ ngữ",
+            "Kết thúc câu hỏi",
+            "Đánh dấu lời nói trực tiếp"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Dấu câu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-013",
+          "prompt": "Mở bài của bài văn thường có nhiệm vụ:",
+          "options": [
+            "Chỉ nêu cảm xúc cuối cùng",
+            "Giới thiệu vấn đề/đối tượng",
+            "Chỉ nêu kết quả",
+            "Không cần"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Viết",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-014",
+          "prompt": "Thân bài thường trình bày:",
+          "options": [
+            "Số trang",
+            "Nội dung chính, các ý phát triển",
+            "Lời chào",
+            "Tên tác giả"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Viết",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-015",
+          "prompt": "Kết bài thường:",
+          "options": [
+            "Khép lại và nêu cảm nghĩ/ý nghĩa",
+            "Chỉ lặp tiêu đề",
+            "Mở chủ đề mới",
+            "Không cần"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Viết",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-016",
+          "prompt": "Từ “rì rào” chủ yếu gợi tả:",
+          "options": [
+            "Thời gian",
+            "Âm thanh",
+            "Hình dáng",
+            "Màu sắc"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Từ tượng thanh",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-017",
+          "prompt": "Từ “lung linh” chủ yếu gợi tả:",
+          "options": [
+            "Âm thanh",
+            "Ánh sáng/hình ảnh",
+            "Hoạt động",
+            "Mùi vị"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Từ tượng hình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-018",
+          "prompt": "Để đoạn văn mạch lạc, các câu cần:",
+          "options": [
+            "Chỉ có từ đơn",
+            "Không có liên từ",
+            "Đổi chủ đề liên tục",
+            "Liên kết nội dung"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Viết",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-019",
+          "prompt": "Khi xác định ý chính của đoạn, nên chú ý:",
+          "options": [
+            "Dấu chấm cuối",
+            "Một từ bất kỳ",
+            "Nội dung bao quát nhất",
+            "Tên người đọc"
+          ],
+          "answerIndex": 2,
+          "difficulty": "hard",
+          "topic": "Đọc hiểu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-020",
+          "prompt": "Trạng ngữ có thể bổ sung thông tin về:",
+          "options": [
+            "Chỉ số lượng",
+            "Chỉ màu sắc",
+            "Thời gian, nơi chốn, nguyên nhân…",
+            "Chỉ tên riêng"
+          ],
+          "answerIndex": 2,
+          "difficulty": "hard",
+          "topic": "Cấu tạo câu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-021",
+          "prompt": "Khi đọc một văn bản ở lớp 5, cách nào giúp xác định ý chính chính xác nhất?",
+          "options": [
+            "Chỉ đọc nhan đề",
+            "Đoán theo tranh mà không đọc",
+            "Chọn câu dài nhất",
+            "Kết hợp nhan đề với các chi tiết quan trọng trong văn bản"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Đọc hiểu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-ti-ng-vi-t-022",
+          "prompt": "Khi viết đoạn văn nghị luận/cảm nhận phù hợp chương trình lớp 5, điều nào cần có?",
+          "options": [
+            "Ý kiến rõ ràng và lí lẽ/dẫn chứng phù hợp",
+            "Không cần đọc lại bài viết",
+            "Chỉ chép lại đề bài",
+            "Các ý không liên quan"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Viết",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Khoa học",
+      "questions": [
+        {
+          "id": "g5-khoa-h-c-001",
+          "prompt": "Hỗn hợp là:",
+          "options": [
+            "Chỉ chất rắn",
+            "Chỉ chất khí",
+            "Một chất tinh khiết duy nhất",
+            "Hai hay nhiều chất trộn lẫn"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Vật chất",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-002",
+          "prompt": "Muối tan trong nước tạo thành:",
+          "options": [
+            "Dung dịch",
+            "Khí",
+            "Kim loại",
+            "Huyền phù"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Vật chất",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-003",
+          "prompt": "Cơ thể người cần oxygen chủ yếu cho:",
+          "options": [
+            "Hô hấp",
+            "Tiêu hóa cơ học",
+            "Nghe",
+            "Nhìn"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Con người",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-004",
+          "prompt": "Máu có vai trò vận chuyển:",
+          "options": [
+            "Từ trường",
+            "Oxygen và chất dinh dưỡng",
+            "Ánh sáng",
+            "Âm thanh"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Tuần hoàn",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-005",
+          "prompt": "Cơ quan tiêu hóa hấp thụ phần lớn chất dinh dưỡng là:",
+          "options": [
+            "Phổi",
+            "Ruột non",
+            "Thận",
+            "Tim"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Tiêu hóa",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-006",
+          "prompt": "Năng lượng điện có thể chuyển thành:",
+          "options": [
+            "Đá",
+            "Không khí",
+            "Chỉ nước",
+            "Ánh sáng ở bóng đèn"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Năng lượng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-007",
+          "prompt": "Năng lượng của thức ăn thuộc dạng:",
+          "options": [
+            "Hóa năng",
+            "Quang năng",
+            "Cơ năng thuần túy",
+            "Điện năng"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Năng lượng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-008",
+          "prompt": "Vật dẫn điện tốt thường là:",
+          "options": [
+            "Gỗ khô",
+            "Cao su",
+            "Kim loại",
+            "Nhựa"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Điện",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-009",
+          "prompt": "Trong mạch điện kín, dòng điện có thể:",
+          "options": [
+            "Chỉ chạy qua nhựa",
+            "Chạy qua mạch",
+            "Không chạy",
+            "Chỉ tồn tại ngoài mạch"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Điện",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-010",
+          "prompt": "Hỗn hợp có thể được tách bằng:",
+          "options": [
+            "Phương pháp phù hợp với tính chất các chất",
+            "Không thể tách",
+            "Chỉ dùng nam châm",
+            "Bất kì cách nào"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Vật chất",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-011",
+          "prompt": "Sự sinh sản giúp sinh vật:",
+          "options": [
+            "Ngừng lớn",
+            "Duy trì nòi giống",
+            "Không cần thức ăn",
+            "Không thay đổi"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Sinh vật",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-012",
+          "prompt": "Cây trao đổi khí chủ yếu qua:",
+          "options": [
+            "Hạt khô",
+            "Rễ duy nhất",
+            "Quả duy nhất",
+            "Khí khổng ở lá"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Thực vật",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-013",
+          "prompt": "Để bảo vệ đất, nên:",
+          "options": [
+            "Hạn chế xói mòn và ô nhiễm",
+            "Xả hóa chất",
+            "Chặt hết cây",
+            "Đổ rác"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Môi trường",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-014",
+          "prompt": "Nước mưa bổ sung nước cho:",
+          "options": [
+            "Chỉ cây",
+            "Chỉ biển",
+            "Sông, hồ, đất và nước ngầm",
+            "Không nơi nào"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Nước",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-015",
+          "prompt": "Năng lượng gió có thể dùng để:",
+          "options": [
+            "Tạo nước uống trực tiếp",
+            "Tạo đất",
+            "Làm cây lớn ngay",
+            "Phát điện"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Năng lượng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-016",
+          "prompt": "Âm thanh truyền được qua:",
+          "options": [
+            "Rắn, lỏng, khí",
+            "Chân không hoàn toàn",
+            "Chỉ nước",
+            "Chỉ kim loại"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Âm thanh",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-017",
+          "prompt": "Khi ánh sáng truyền từ không khí vào nước, hướng truyền có thể:",
+          "options": [
+            "Luôn giữ nguyên",
+            "Bị khúc xạ",
+            "Biến mất",
+            "Biến thành âm thanh"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Ánh sáng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-018",
+          "prompt": "Thực vật hấp thụ carbon dioxide để:",
+          "options": [
+            "Hô hấp thay người",
+            "Tạo kim loại",
+            "Tạo tiếng động",
+            "Quang hợp"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Thực vật",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-019",
+          "prompt": "Động vật ăn cả thực vật và động vật gọi là:",
+          "options": [
+            "Ăn cỏ",
+            "Ăn tạp",
+            "Ăn thịt bắt buộc",
+            "Kí sinh"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Sinh vật",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-020",
+          "prompt": "Sử dụng năng lượng tiết kiệm góp phần:",
+          "options": [
+            "Không có ý nghĩa",
+            "Tăng ô nhiễm luôn",
+            "Giảm lãng phí tài nguyên",
+            "Tăng tiêu thụ vô ích"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Môi trường",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-khoa-h-c-021",
+          "prompt": "Trong một thí nghiệm khoa học ở lớp 5, để so sánh công bằng hai điều kiện, nên:",
+          "options": [
+            "Không ghi kết quả",
+            "Chỉ thay đổi yếu tố cần khảo sát và giữ các yếu tố khác phù hợp như nhau",
+            "Chỉ thử một lần rồi kết luận chắc chắn",
+            "Thay đổi nhiều yếu tố cùng lúc"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Thực hành khoa học",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Lịch sử và Địa lí",
+      "questions": [
+        {
+          "id": "g5-l-ch-s-v-a-l-001",
+          "prompt": "Nhà Lý dời đô về:",
+          "options": [
+            "Phong Châu",
+            "Huế",
+            "Hoa Lư",
+            "Thăng Long"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Lịch sử Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-002",
+          "prompt": "Nhà Trần đã chống quân xâm lược:",
+          "options": [
+            "Pháp",
+            "Anh",
+            "Minh",
+            "Mông – Nguyên"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Lịch sử Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-003",
+          "prompt": "Lê Lợi lãnh đạo cuộc khởi nghĩa:",
+          "options": [
+            "Hương Khê",
+            "Tây Sơn",
+            "Yên Thế",
+            "Lam Sơn"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Lịch sử Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-004",
+          "prompt": "Phong trào Tây Sơn gắn với:",
+          "options": [
+            "Lê Lợi",
+            "Ngô Quyền",
+            "Quang Trung",
+            "Lý Thường Kiệt"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Lịch sử Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-005",
+          "prompt": "Chiến thắng Ngọc Hồi – Đống Đa diễn ra vào:",
+          "options": [
+            "1945",
+            "1010",
+            "938",
+            "Tết Kỉ Dậu 1789"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Lịch sử Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-006",
+          "prompt": "Ngày Quốc khánh Việt Nam là:",
+          "options": [
+            "19/5",
+            "2/9",
+            "30/4",
+            "1/5"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Lịch sử Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-007",
+          "prompt": "Đỉnh núi cao nhất Việt Nam là:",
+          "options": [
+            "Langbiang",
+            "Ngọc Linh",
+            "Fansipan",
+            "Bà Đen"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Địa lí Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-008",
+          "prompt": "Hai quần đảo lớn của Việt Nam là:",
+          "options": [
+            "Cát Bà và Phú Quốc",
+            "Hoàng Sa và Trường Sa",
+            "Lý Sơn và Côn Đảo",
+            "Cô Tô và Bạch Long Vĩ"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Địa lí Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-009",
+          "prompt": "Đồng bằng sông Cửu Long có thế mạnh nổi bật về:",
+          "options": [
+            "Băng tuyết",
+            "Trồng chè trên núi cao",
+            "Trồng lúa và nuôi trồng thủy sản",
+            "Khai thác than"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Địa lí Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-010",
+          "prompt": "Khí hậu Việt Nam mang tính chất:",
+          "options": [
+            "Ôn đới hải dương",
+            "Hoang mạc",
+            "Nhiệt đới gió mùa",
+            "Cực"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Địa lí Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-011",
+          "prompt": "Biển có vai trò đối với Việt Nam về:",
+          "options": [
+            "Giao thông, thủy sản, du lịch",
+            "Chỉ trồng lúa",
+            "Chỉ khai khoáng",
+            "Không có vai trò"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Địa lí Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-012",
+          "prompt": "Châu Á tiếp giáp với:",
+          "options": [
+            "Chỉ Bắc Băng Dương",
+            "Không có đại dương",
+            "Thái Bình Dương, Ấn Độ Dương…",
+            "Chỉ Đại Tây Dương"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Địa lí thế giới",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-013",
+          "prompt": "Châu Phi nổi tiếng với hoang mạc:",
+          "options": [
+            "Sahara",
+            "Gobi",
+            "Atacama",
+            "Namib"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Địa lí thế giới",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-014",
+          "prompt": "Dãy Himalaya nằm ở:",
+          "options": [
+            "Châu Phi",
+            "Châu Âu",
+            "Châu Á",
+            "Châu Mỹ"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Địa lí thế giới",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-015",
+          "prompt": "Sông dài nổi tiếng ở châu Phi là:",
+          "options": [
+            "Mississippi",
+            "Nile",
+            "Danube",
+            "Amazon"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Địa lí thế giới",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-016",
+          "prompt": "Đồng bằng thường có địa hình:",
+          "options": [
+            "Chỉ đá vôi",
+            "Tương đối bằng phẳng",
+            "Rất dốc",
+            "Luôn cao hơn núi"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Địa lí",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-017",
+          "prompt": "Dân cư tập trung đông hơn ở:",
+          "options": [
+            "Núi cao hiểm trở",
+            "Hoang mạc",
+            "Băng cực",
+            "Đồng bằng và đô thị"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Địa lí",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-018",
+          "prompt": "Ngành kinh tế khai thác sản phẩm từ biển là:",
+          "options": [
+            "Săn bắt vô hạn",
+            "Trồng lúa trên núi",
+            "Thủy sản",
+            "Lâm nghiệp núi cao"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Địa lí Việt Nam",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-019",
+          "prompt": "Sử dụng bản đồ cần chú ý:",
+          "options": [
+            "Chú giải và tỉ lệ bản đồ",
+            "Kích thước màn hình",
+            "Tên người vẽ",
+            "Chỉ màu nền"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Địa lí",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-l-ch-s-v-a-l-020",
+          "prompt": "Một di sản văn hóa nổi tiếng ở miền Trung là:",
+          "options": [
+            "Phố cổ Hội An",
+            "Sa Pa",
+            "Phong Nha-Kẻ Bàng",
+            "Vịnh Hạ Long"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Lịch sử và văn hóa",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Đạo đức",
+      "questions": [
+        {
+          "id": "g5-o-c-001",
+          "prompt": "Trung thực trong học tập nghĩa là:",
+          "options": [
+            "Giấu điểm",
+            "Tự làm và nói đúng sự thật",
+            "Nhờ làm hộ",
+            "Chép bài"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Trung thực",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-002",
+          "prompt": "Khi được giao nhiệm vụ nhóm, em nên:",
+          "options": [
+            "Hoàn thành phần việc của mình",
+            "Bỏ mặc",
+            "Không tham gia",
+            "Đổ cho bạn"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Trách nhiệm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-003",
+          "prompt": "Tôn trọng người khác thể hiện ở:",
+          "options": [
+            "Ép buộc",
+            "Lắng nghe ý kiến khác mình",
+            "Cắt lời",
+            "Chế giễu"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Tôn trọng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-004",
+          "prompt": "Khi xảy ra mâu thuẫn, lựa chọn tốt là:",
+          "options": [
+            "Đe dọa",
+            "Nói xấu",
+            "Đánh nhau",
+            "Trao đổi bình tĩnh"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Ứng xử",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-005",
+          "prompt": "Tiết kiệm điện nước là biểu hiện của:",
+          "options": [
+            "Ích kỉ",
+            "Thờ ơ",
+            "Lãng phí",
+            "Có trách nhiệm với tài nguyên"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Trách nhiệm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-006",
+          "prompt": "Khi mắc khuyết điểm, em nên:",
+          "options": [
+            "Nhận và tìm cách khắc phục",
+            "Đổ lỗi",
+            "Bỏ qua",
+            "Che giấu"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Trách nhiệm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-007",
+          "prompt": "Giúp đỡ bạn học yếu phù hợp với:",
+          "options": [
+            "Cạnh tranh không lành mạnh",
+            "Xa lánh",
+            "Chế nhạo",
+            "Đoàn kết và chia sẻ"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Yêu thương",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-008",
+          "prompt": "Tự giác làm bài tập là:",
+          "options": [
+            "Trốn tránh",
+            "Tự chủ trong học tập",
+            "Thụ động",
+            "Phụ thuộc"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Tự chủ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-009",
+          "prompt": "Khi nhặt được đồ đánh rơi, em nên:",
+          "options": [
+            "Vứt đi",
+            "Tìm cách trả lại người mất",
+            "Đăng thông tin riêng tư",
+            "Giữ làm của mình"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Trung thực",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-010",
+          "prompt": "Khi thấy bạn bị hiểu lầm trong lớp, em nên:",
+          "options": [
+            "Lan tin chưa kiểm chứng",
+            "Tẩy chay người khác",
+            "Cười nhạo",
+            "Tìm hiểu sự việc và bảo vệ sự thật một cách bình tĩnh"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Trung thực",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-011",
+          "prompt": "Tôn trọng thầy cô thể hiện qua:",
+          "options": [
+            "Phá lớp",
+            "Lắng nghe và cư xử lễ phép",
+            "Xúc phạm",
+            "Nói leo"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Tôn trọng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-012",
+          "prompt": "Khi làm việc chung, công bằng nghĩa là:",
+          "options": [
+            "Một người làm hết",
+            "Chia nhiệm vụ hợp lí",
+            "Bỏ người khác",
+            "Ai mạnh thì quyết"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Công bằng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-013",
+          "prompt": "Lời nói có trách nhiệm là lời nói:",
+          "options": [
+            "Bịa đặt",
+            "Đúng và phù hợp hoàn cảnh",
+            "Lan tin chưa kiểm chứng",
+            "Gây tổn thương"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Trách nhiệm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-014",
+          "prompt": "Trước khi chia sẻ một thông tin trên mạng, em nên:",
+          "options": [
+            "Kiểm tra nguồn và nội dung",
+            "Chia sẻ ngay",
+            "Tin mọi bình luận",
+            "Chỉ nhìn tiêu đề"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Đạo đức số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-015",
+          "prompt": "Biết nhận công khi mình làm tốt nhưng không hạ thấp người khác thể hiện:",
+          "options": [
+            "Tự tin lành mạnh",
+            "Kiêu ngạo",
+            "Thờ ơ",
+            "Ích kỉ"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Ứng xử",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-016",
+          "prompt": "Khi bạn có ý kiến khác, em nên:",
+          "options": [
+            "Rủ người khác tẩy chay",
+            "Chặn bạn",
+            "Tìm hiểu lí do và trao đổi",
+            "Chửi bạn"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Tôn trọng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-017",
+          "prompt": "Giữ bí mật riêng tư của bạn bè khi phù hợp là:",
+          "options": [
+            "Gian dối",
+            "Ích kỉ",
+            "Vô trách nhiệm",
+            "Tôn trọng quyền riêng tư"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Tôn trọng",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-018",
+          "prompt": "Khi được giao tài sản chung, em cần:",
+          "options": [
+            "Cho người khác mang về",
+            "Bán đi",
+            "Dùng tùy ý",
+            "Bảo quản và dùng đúng mục đích"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Trách nhiệm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-019",
+          "prompt": "Hứa điều mình không thể làm rồi cố tình bỏ mặc là:",
+          "options": [
+            "Tôn trọng",
+            "Công bằng",
+            "Thiếu trách nhiệm",
+            "Trung thực"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Trách nhiệm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-o-c-020",
+          "prompt": "Một hành động thể hiện lòng biết ơn là:",
+          "options": [
+            "Chủ động cảm ơn và đáp lại phù hợp",
+            "Chê bai",
+            "Đòi hỏi thêm",
+            "Phớt lờ"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Yêu thương",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Tin học",
+      "questions": [
+        {
+          "id": "g5-tin-h-c-001",
+          "prompt": "Máy tính có thể hỗ trợ học tập bằng cách nào?",
+          "options": [
+            "Biết mọi thông tin dù không có dữ liệu",
+            "Soạn văn bản, tính toán, trình chiếu và tìm thông tin",
+            "Luôn quyết định thay em",
+            "Tự chịu trách nhiệm thay người dùng"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Bài 1 — Em có thể làm gì với máy tính",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-002",
+          "prompt": "Khi tìm thông tin trên website, từ khóa tốt nên:",
+          "options": [
+            "Là một chuỗi kí tự bất kì",
+            "Chỉ gồm dấu câu",
+            "Luôn là tên người nổi tiếng",
+            "Cụ thể và liên quan câu hỏi cần giải quyết"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Bài 2 — Tìm kiếm trên website",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-003",
+          "prompt": "Muốn chọn địa điểm cho buổi tham quan, em nên tìm:",
+          "options": [
+            "Chỉ một lời bình luận ẩn danh",
+            "Địa chỉ, giờ mở cửa và thông tin từ nguồn đáng tin",
+            "Một quảng cáo không có chi tiết",
+            "Thông tin không có ngày tháng"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bài 3 — Tìm kiếm để giải quyết vấn đề",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-004",
+          "prompt": "Trong cây thư mục, thư mục gốc là:",
+          "options": [
+            "Luôn là thư mục nhỏ nhất",
+            "Mức bắt đầu của cấu trúc thư mục",
+            "Tệp âm thanh",
+            "Một loại ảnh"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bài 4 — Cây thư mục",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-005",
+          "prompt": "Bản quyền nội dung thông tin nhằm bảo vệ:",
+          "options": [
+            "Mọi hành vi sao chép tùy ý",
+            "Chỉ màu sắc văn bản",
+            "Tốc độ Internet",
+            "Quyền của người tạo ra tác phẩm và nội dung"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bài 5 — Bản quyền nội dung thông tin",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-006",
+          "prompt": "Định dạng kí tự trong văn bản có thể gồm:",
+          "options": [
+            "Tên thư mục gốc",
+            "Dung lượng pin",
+            "Kiểu chữ, cỡ chữ và màu chữ",
+            "Địa chỉ IP"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Bài 6 — Định dạng kí tự",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-007",
+          "prompt": "Khi căn chỉnh đoạn văn, em nên chọn cách:",
+          "options": [
+            "Căn lề ngẫu nhiên mỗi dòng",
+            "Làm chữ trùng màu nền",
+            "Dùng cỡ chữ rất nhỏ",
+            "Phù hợp mục đích và giúp văn bản dễ đọc"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bài 6 — Bố trí văn bản",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-008",
+          "prompt": "Trong phần mềm đồ họa, công cụ chọn vùng giúp:",
+          "options": [
+            "Tìm email",
+            "Tắt máy",
+            "Chọn phần ảnh cần thao tác",
+            "Đổi địa chỉ mạng"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Bài 8A — Phần mềm đồ họa",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-009",
+          "prompt": "Khi tạo sản phẩm số, em nên:",
+          "options": [
+            "Sao chép bất kì tác phẩm rồi nhận là của mình",
+            "Dùng hình ảnh không liên quan",
+            "Bỏ kiểm tra lỗi",
+            "Lập kế hoạch, chọn nội dung và kiểm tra sản phẩm"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bài 9A — Sản phẩm số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-010",
+          "prompt": "Cấu trúc tuần tự trong chương trình có nghĩa là:",
+          "options": [
+            "Không có lệnh nào chạy",
+            "Lệnh luôn chạy ngẫu nhiên",
+            "Chỉ có lệnh lặp",
+            "Các lệnh được thực hiện theo thứ tự từ trước đến sau"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Bài 10 — Cấu trúc tuần tự",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-011",
+          "prompt": "Nếu muốn nhân vật đi 10 bước rồi quay phải, hai lệnh nên được xếp theo:",
+          "options": [
+            "Kích thước màn hình",
+            "Tên màu của khối lệnh",
+            "Thứ tự yêu cầu của nhiệm vụ",
+            "Thứ tự ngẫu nhiên"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Bài 10 — Cấu trúc tuần tự",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-012",
+          "prompt": "Cấu trúc lặp phù hợp khi:",
+          "options": [
+            "Chỉ cần đổi màu nền",
+            "Một thao tác cần thực hiện nhiều lần",
+            "Chỉ có một hành động cần làm một lần",
+            "Không có thao tác"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Bài 11 — Cấu trúc lặp",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-013",
+          "prompt": "Trong chương trình, biến thường dùng để:",
+          "options": [
+            "Trang trí biểu tượng",
+            "Đổi dây mạng",
+            "Lưu giá trị có thể thay đổi",
+            "Tạo tiếng loa vật lí"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Bài 14 — Sử dụng biến",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-014",
+          "prompt": "Biểu thức `3 + 2 × 4` theo thứ tự phép toán có giá trị là:",
+          "options": [
+            "9",
+            "14",
+            "11",
+            "20"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Bài 15 — Biểu thức trong chương trình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-015",
+          "prompt": "Cấu trúc rẽ nhánh giúp chương trình:",
+          "options": [
+            "Không đọc dữ liệu",
+            "Luôn lặp vô hạn",
+            "Chọn cách thực hiện dựa vào điều kiện",
+            "Chỉ phát âm thanh"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Bài 13 — Cấu trúc rẽ nhánh",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-016",
+          "prompt": "Khi chuyển kịch bản thành chương trình, em nên:",
+          "options": [
+            "Xác định đối tượng, sự kiện và các bước lệnh",
+            "Không lưu tệp",
+            "Bỏ qua thử nghiệm",
+            "Viết lệnh trước khi biết mục đích"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Bài 16 — Từ kịch bản đến chương trình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-017",
+          "prompt": "Nếu muốn tìm tệp bài tập nhanh hơn, cách tốt là:",
+          "options": [
+            "Đặt mọi tệp cùng tên",
+            "Không lưu tệp",
+            "Đặt tên dễ hiểu và xếp trong thư mục phù hợp",
+            "Lưu tất cả tệp vào nhiều nơi không tên"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Bài 4 — Tổ chức thông tin",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-018",
+          "prompt": "Khi chia sẻ hình do bạn khác tạo, em cần:",
+          "options": [
+            "Tôn trọng bản quyền và xin phép khi cần",
+            "Nói rằng mình tạo ra",
+            "Xóa tên tác giả",
+            "Chia sẻ thông tin riêng của bạn"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Bài 5 — Đạo đức và pháp luật số",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-019",
+          "prompt": "Website yêu cầu ngày sinh, số điện thoại và mật khẩu dù không cần thiết; em nên:",
+          "options": [
+            "Dùng mật khẩu của người thân",
+            "Chia sẻ cùng lớp",
+            "Không cung cấp vội và hỏi người lớn đáng tin",
+            "Điền hết để dùng nhanh"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "An toàn thông tin",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-tin-h-c-020",
+          "prompt": "Sau khi hoàn thiện chương trình, em cần:",
+          "options": [
+            "Chạy thử, sửa lỗi và lưu phiên bản đúng",
+            "Tắt máy ngay khi chưa lưu",
+            "Không thử nghiệm",
+            "Xóa tên dự án"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Bài 16 — Kiểm thử chương trình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Công nghệ",
+      "questions": [
+        {
+          "id": "g5-c-ng-ngh-001",
+          "prompt": "Vật liệu nào thường dùng làm dây điện vì dẫn điện tốt?",
+          "options": [
+            "Gỗ",
+            "Cao su",
+            "Giấy",
+            "Đồng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Vật liệu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-002",
+          "prompt": "Khi sử dụng dụng cụ, cần ưu tiên:",
+          "options": [
+            "An toàn và đúng hướng dẫn",
+            "Làm thật nhanh",
+            "Bỏ qua bảo hộ",
+            "Dùng sai mục đích"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "An toàn",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-003",
+          "prompt": "Bản vẽ kĩ thuật thường cần thể hiện:",
+          "options": [
+            "Âm nhạc",
+            "Hình dạng và kích thước",
+            "Cảm xúc",
+            "Câu chuyện"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Bản vẽ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-004",
+          "prompt": "Trong thiết kế, bước đầu thường có tính chất phù hợp là:",
+          "options": [
+            "Sản xuất ngay",
+            "Mua đồ trước",
+            "Bỏ kiểm tra",
+            "Xác định vấn đề/nhu cầu"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Thiết kế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-005",
+          "prompt": "Dụng cụ đo chiều dài phổ biến có tính chất phù hợp là:",
+          "options": [
+            "Búa",
+            "Thước",
+            "Kìm",
+            "Tua vít"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Đo lường",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-006",
+          "prompt": "Kim loại thường có tính:",
+          "options": [
+            "Luôn mềm như vải",
+            "Không dẫn nhiệt",
+            "Không thể gia công",
+            "Dẫn điện tốt"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Vật liệu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-007",
+          "prompt": "Gỗ thuộc nhóm vật liệu:",
+          "options": [
+            "Phi kim",
+            "Kim loại",
+            "Điện tử",
+            "Chất khí"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Vật liệu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-008",
+          "prompt": "Muốn cắt vật liệu an toàn, nên:",
+          "options": [
+            "Dùng đúng dụng cụ và bảo hộ phù hợp",
+            "Đùa khi làm",
+            "Không cần hướng dẫn",
+            "Cầm tay gần lưỡi cắt"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "An toàn",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-009",
+          "prompt": "Lắp ráp đúng giúp sản phẩm:",
+          "options": [
+            "Không cần vật liệu",
+            "Không cần kiểm tra",
+            "Chắc chắn hỏng",
+            "Hoạt động an toàn và đúng chức năng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Kĩ thuật",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-010",
+          "prompt": "Kiểm tra sản phẩm sau chế tạo nhằm:",
+          "options": [
+            "Đổi tên sản phẩm",
+            "Tăng số màu",
+            "Phát hiện và sửa lỗi",
+            "Bỏ qua chất lượng"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Thiết kế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-011",
+          "prompt": "Năng lượng điện trong gia đình dùng để:",
+          "options": [
+            "Trồng cây trực tiếp",
+            "Vận hành thiết bị",
+            "Làm đá tự nhiên",
+            "Tạo nước mưa"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Gia đình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-012",
+          "prompt": "Thiết bị gia dụng cần được:",
+          "options": [
+            "Cắm quá tải",
+            "Dùng dây hỏng",
+            "Sử dụng đúng công suất và hướng dẫn",
+            "Đặt nơi ướt"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Gia đình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-013",
+          "prompt": "Nước sạch trong gia đình cần được:",
+          "options": [
+            "Không đậy kín",
+            "Bảo quản và sử dụng hợp vệ sinh",
+            "Để lẫn chất bẩn",
+            "Dùng mọi nguồn"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Gia đình",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-014",
+          "prompt": "Trong trồng trọt, đất cung cấp:",
+          "options": [
+            "Ánh sáng duy nhất",
+            "Âm thanh",
+            "Nước, không khí và chất khoáng cho rễ",
+            "Điện"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Trồng trọt",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-015",
+          "prompt": "Tưới cây hợp lí giúp:",
+          "options": [
+            "Cây có đủ nước mà không lãng phí",
+            "Đất luôn ngập",
+            "Rễ thiếu khí",
+            "Không có tác dụng"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Trồng trọt",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-016",
+          "prompt": "Hạt giống tốt thường cần:",
+          "options": [
+            "Bị mốc",
+            "Bị sâu bệnh",
+            "Bị lép nhiều",
+            "Đảm bảo chất lượng và phù hợp cây trồng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Trồng trọt",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-017",
+          "prompt": "Thu hoạch đúng thời điểm nhằm:",
+          "options": [
+            "Không cần bảo quản",
+            "Đảm bảo năng suất và chất lượng",
+            "Giảm chất lượng",
+            "Làm cây chết ngay"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Trồng trọt",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-018",
+          "prompt": "Biện pháp an toàn điện có tính chất phù hợp là:",
+          "options": [
+            "Cắm quá tải",
+            "Ngắt nguồn trước khi sửa chữa khi phù hợp",
+            "Chạm dây trần",
+            "Dùng tay ướt"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "An toàn",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-019",
+          "prompt": "Thiết kế tốt cần cân nhắc:",
+          "options": [
+            "Chỉ kích thước",
+            "Chỉ giá rẻ",
+            "Chỉ màu sắc",
+            "Công năng, an toàn và vật liệu"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Thiết kế",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-c-ng-ngh-020",
+          "prompt": "Tái sử dụng vật liệu giúp:",
+          "options": [
+            "Giảm chất thải và tiết kiệm tài nguyên",
+            "Không có ý nghĩa",
+            "Tăng rác",
+            "Lãng phí hơn"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Môi trường",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Âm nhạc",
+      "questions": [
+        {
+          "id": "g5-m-nh-c-001",
+          "prompt": "Âm nhạc sử dụng chủ yếu các yếu tố nào?",
+          "options": [
+            "Khối lượng",
+            "Chỉ màu sắc",
+            "Giai điệu, nhịp điệu, tiết tấu…",
+            "Nhiệt độ"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Yếu tố âm nhạc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-002",
+          "prompt": "Kí hiệu khuông nhạc có mấy dòng?",
+          "options": [
+            "5",
+            "7",
+            "4",
+            "6"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Khuông nhạc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-003",
+          "prompt": "Khóa Sol thường được đặt ở:",
+          "options": [
+            "Ngoài khuông",
+            "Dòng thứ 5",
+            "Khe thứ 1",
+            "Dòng thứ 2 của khuông nhạc"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Nhạc lí",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-004",
+          "prompt": "Nốt nào có tên theo hệ Đô-Rê-Mi?",
+          "options": [
+            "Đô",
+            "La",
+            "Fa#",
+            "Si"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Nốt nhạc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-005",
+          "prompt": "Nhịp 2/4 thường có:",
+          "options": [
+            "2 phách trong mỗi ô nhịp",
+            "6 phách",
+            "4 phách",
+            "8 phách"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Nhịp",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-006",
+          "prompt": "Nhịp 3/4 thường có:",
+          "options": [
+            "4 phách",
+            "3 phách",
+            "5 phách",
+            "2 phách"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Nhịp",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-007",
+          "prompt": "Cường độ âm thanh liên quan đến:",
+          "options": [
+            "Dài – ngắn",
+            "Nhanh – chậm",
+            "Mạnh – nhẹ",
+            "Cao – thấp"
+          ],
+          "answerIndex": 2,
+          "difficulty": "medium",
+          "topic": "Cường độ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-008",
+          "prompt": "Cao độ âm thanh liên quan đến:",
+          "options": [
+            "Mạnh – nhẹ",
+            "Nhanh – chậm",
+            "Dài – ngắn",
+            "Trầm – bổng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Cao độ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-009",
+          "prompt": "Trường độ là:",
+          "options": [
+            "Độ mạnh của âm",
+            "Màu sắc",
+            "Độ cao",
+            "Độ dài ngắn của âm thanh"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Trường độ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-010",
+          "prompt": "Nhạc cụ nào thuộc bộ dây?",
+          "options": [
+            "Violin",
+            "Sáo",
+            "Trống",
+            "Kèn trumpet"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Nhạc cụ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-011",
+          "prompt": "Trống thuộc nhóm nhạc cụ:",
+          "options": [
+            "Phím",
+            "Gõ",
+            "Dây",
+            "Hơi"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Nhạc cụ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-012",
+          "prompt": "Sáo thuộc nhóm nhạc cụ:",
+          "options": [
+            "Hơi",
+            "Dây",
+            "Gõ",
+            "Điện"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Nhạc cụ",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-013",
+          "prompt": "Dấu lặng biểu thị:",
+          "options": [
+            "Đổi nhạc cụ",
+            "Âm rất mạnh",
+            "Âm rất cao",
+            "Khoảng im lặng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Nhạc lí",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-014",
+          "prompt": "Tiết tấu là:",
+          "options": [
+            "Chỉ âm lượng",
+            "Sự sắp xếp trường độ theo nhịp",
+            "Chỉ độ cao",
+            "Chỉ ca từ"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Tiết tấu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-015",
+          "prompt": "Hòa âm liên quan đến:",
+          "options": [
+            "Các âm thanh vang lên đồng thời",
+            "Chỉ một nốt",
+            "Chỉ nhịp",
+            "Chỉ lời ca"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Hòa âm",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-016",
+          "prompt": "Một bài hát thường có:",
+          "options": [
+            "Giai điệu và tiết tấu",
+            "Chỉ lời",
+            "Chỉ tiếng trống",
+            "Chỉ nhịp"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Bài hát",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-017",
+          "prompt": "Kí hiệu # (thăng) làm nốt:",
+          "options": [
+            "Giảm một cung",
+            "Xóa nốt",
+            "Tăng cao độ nửa cung",
+            "Giữ nguyên"
+          ],
+          "answerIndex": 2,
+          "difficulty": "hard",
+          "topic": "Hóa biểu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-018",
+          "prompt": "Kí hiệu b (giáng) làm nốt:",
+          "options": [
+            "Xóa nốt",
+            "Giữ nguyên",
+            "Tăng một cung",
+            "Giảm cao độ nửa cung"
+          ],
+          "answerIndex": 3,
+          "difficulty": "hard",
+          "topic": "Hóa biểu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-019",
+          "prompt": "Giọng trưởng thường tạo cảm giác:",
+          "options": [
+            "Sáng, ổn định theo hệ thống trưởng",
+            "Không có cao độ",
+            "Chỉ buồn",
+            "Không có nhịp"
+          ],
+          "answerIndex": 0,
+          "difficulty": "medium",
+          "topic": "Điệu thức",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-nh-c-020",
+          "prompt": "Khi biểu diễn tập thể, cần chú ý:",
+          "options": [
+            "Ai hát một kiểu",
+            "Đúng nhịp, nghe nhau và phối hợp",
+            "Chỉ hát thật to",
+            "Không cần chỉ huy"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Biểu diễn",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    },
+    {
+      "name": "Mĩ thuật",
+      "questions": [
+        {
+          "id": "g5-m-thu-t-001",
+          "prompt": "Ba màu cơ bản thường học trong hội họa là:",
+          "options": [
+            "Đen, trắng, xám",
+            "Cam, tím, nâu",
+            "Hồng, nâu, xanh lá",
+            "Đỏ, vàng, xanh lam"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Màu sắc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-002",
+          "prompt": "Màu nóng gồm nhóm như:",
+          "options": [
+            "Trắng, đen",
+            "Đỏ, cam, vàng",
+            "Xanh lam, tím",
+            "Đen, xám"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Màu sắc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-003",
+          "prompt": "Màu lạnh gồm nhóm như:",
+          "options": [
+            "Hồng, cam",
+            "Đỏ, cam, vàng",
+            "Xanh lam, xanh lục, tím",
+            "Nâu, đỏ"
+          ],
+          "answerIndex": 2,
+          "difficulty": "easy",
+          "topic": "Màu sắc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-004",
+          "prompt": "Bố cục là:",
+          "options": [
+            "Cách sắp xếp các yếu tố trong tác phẩm",
+            "Loại giấy",
+            "Tên họa sĩ",
+            "Màu yêu thích"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Bố cục",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-005",
+          "prompt": "Điểm nhấn trong tranh giúp:",
+          "options": [
+            "Làm tranh tối hơn luôn",
+            "Xóa chủ thể",
+            "Không có tác dụng",
+            "Thu hút sự chú ý vào khu vực quan trọng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bố cục",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-006",
+          "prompt": "Hình khối là yếu tố giúp tạo cảm giác:",
+          "options": [
+            "Thời gian",
+            "Âm thanh",
+            "Mùi hương",
+            "Không gian và thể tích"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Hình khối",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-007",
+          "prompt": "Hình ảnh ở xa thường được vẽ nhỏ hơn để gợi:",
+          "options": [
+            "Nhiệt độ",
+            "Âm nhạc",
+            "Cường độ âm",
+            "Không gian và chiều sâu"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Phối cảnh",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-008",
+          "prompt": "Đường chân trời trong phối cảnh thường:",
+          "options": [
+            "Luôn ở đáy tranh",
+            "Nằm ngang và liên quan tầm mắt",
+            "Không tồn tại",
+            "Luôn ở đỉnh tranh"
+          ],
+          "answerIndex": 1,
+          "difficulty": "hard",
+          "topic": "Phối cảnh",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-009",
+          "prompt": "Chất liệu màu nước thường có đặc điểm:",
+          "options": [
+            "Đặc như đất sét",
+            "Chỉ dùng trên kim loại",
+            "Không cần nước",
+            "Trong, nhẹ và có thể loang"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Chất liệu",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-010",
+          "prompt": "Tranh tĩnh vật thường vẽ:",
+          "options": [
+            "Chỉ phong cảnh",
+            "Cảnh chiến đấu",
+            "Chỉ người",
+            "Đồ vật"
+          ],
+          "answerIndex": 3,
+          "difficulty": "easy",
+          "topic": "Thể loại",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-011",
+          "prompt": "Tranh phong cảnh thường thể hiện:",
+          "options": [
+            "Cảnh thiên nhiên hoặc không gian",
+            "Chỉ đồ vật",
+            "Chỉ chân dung",
+            "Chỉ chữ"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Thể loại",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-012",
+          "prompt": "Chân dung tập trung vào:",
+          "options": [
+            "Chỉ kiến trúc",
+            "Đặc điểm con người",
+            "Chỉ đồ vật",
+            "Chỉ cây cối"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Thể loại",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-013",
+          "prompt": "Màu tương phản thường tạo:",
+          "options": [
+            "Không có khác biệt",
+            "Sự biến mất hoàn toàn",
+            "Chỉ màu xám",
+            "Sự nổi bật mạnh"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Màu sắc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-014",
+          "prompt": "Sắc độ là:",
+          "options": [
+            "Kích thước giấy",
+            "Loại bút",
+            "Tên họa sĩ",
+            "Mức độ sáng – tối của màu"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Màu sắc",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-015",
+          "prompt": "Nhịp điệu trong bố cục tạo bởi:",
+          "options": [
+            "Sự lặp lại có tổ chức của hình/đường/màu",
+            "Không sắp xếp",
+            "Chỉ một điểm",
+            "Chỉ chữ viết"
+          ],
+          "answerIndex": 0,
+          "difficulty": "hard",
+          "topic": "Bố cục",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-016",
+          "prompt": "Cân bằng trong bố cục giúp:",
+          "options": [
+            "Xóa trọng tâm",
+            "Làm mọi thứ giống nhau",
+            "Không cần sắp xếp",
+            "Tác phẩm ổn định về thị giác"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Bố cục",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-017",
+          "prompt": "Tỉ lệ trong hình giúp:",
+          "options": [
+            "Mọi phần bằng nhau",
+            "Các phần có quan hệ kích thước hợp lí",
+            "Không có phối cảnh",
+            "Chỉ đổi màu"
+          ],
+          "answerIndex": 1,
+          "difficulty": "medium",
+          "topic": "Hình họa",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-018",
+          "prompt": "Phác thảo dùng để:",
+          "options": [
+            "Thay thế luôn tác phẩm",
+            "Nghiên cứu ý tưởng và bố cục trước khi hoàn thiện",
+            "Xóa chi tiết",
+            "Chỉ tô màu"
+          ],
+          "answerIndex": 1,
+          "difficulty": "easy",
+          "topic": "Sáng tạo",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-019",
+          "prompt": "Sáng tạo trong mĩ thuật có thể thể hiện qua:",
+          "options": [
+            "Chỉ dùng màu đen",
+            "Không có lựa chọn",
+            "Chỉ sao chép",
+            "Ý tưởng, cách thể hiện và chất liệu riêng"
+          ],
+          "answerIndex": 3,
+          "difficulty": "medium",
+          "topic": "Sáng tạo",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        },
+        {
+          "id": "g5-m-thu-t-020",
+          "prompt": "Khi trưng bày tranh, nên chú ý:",
+          "options": [
+            "Ánh sáng và cách bố trí phù hợp",
+            "Không cần khoảng cách",
+            "Che khuất tranh",
+            "Để nơi ẩm ướt"
+          ],
+          "answerIndex": 0,
+          "difficulty": "easy",
+          "topic": "Trưng bày",
+          "reviewStatus": "unverified",
+          "sourceVerified": false
+        }
+      ]
+    }
+  ]
+}
